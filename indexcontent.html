@@ -3,7 +3,32 @@
   <H2>Building IoT Projects</H2>
  </HEADER>
  
-   <SECTION ID="Section_6">
+   <SECTION ID="Section_8">
+  <H2>Week 8</H2>
+  <p>
+   <p> This week we had to create and upload a placard for our project. After looking at the specifications for the sensors that we will be using we have
+   a better understanding of what we will need to be using, power, and design of our project. For now the picture used is just a slight build, and there 
+   is a good chance it will be modified in future weeks of the build.</p>
+		<LI><a href="files/PlacardLifelines.pub">Placard for Linelines: Breathalyzer</a></LI>
+		 </p>
+ </SECTION>
+
+  <SECTION ID="Section_7">
+  <H2>Week 7</H2>
+  <p>
+   <p> This week we had to have our PCB working and successfully booted up. Once booted it the sensors should be plugged in
+   and working after running a program on the Raspberry Pi. All my sensors were successfully working, and my LED also flashed.</p>
+   
+   <p>There was a problem at first with my PCB, but after going back to the prototype lab and testing again, I was able to get it working.
+   The problem was with the 24-pin GPIO connector, pins 3 and 5 were actually short circuited by solder. This created an error with the sensors
+   and when I ran the "i2cdetect -y 1" command, it wouldn't show the sensors being recognized.Once consulting Kelly Gray about it,
+   he was able to fix it for me while looking under the microscope</p>
+		<h4>PCB working with sensors detected:</h4> 
+		<p><img src="images/workingpcb.jpg" alt="flashingpcb" style="width:614px;height:404px;"></p>
+		 </p>
+ </SECTION>
+
+ <SECTION ID="Section_6">
   <H2>Week 6</H2>
   <p>
    <p> By this week I updated my progress report that states all the things we have gone through from week 1 until now(which is seen below) and I also just recently completed soldering my PCB board and will go onto testing it.</p>
@@ -11,7 +36,7 @@
 		<p><img src="images/pcb1.jpg" alt="pcb1" style="width:304px;height:304px;">
 		<img src="images/pcb2.jpg" alt="pcb2" style="width:304px;height:304px;"></p>
 		<h4>Progress Report:</h4>
-		<p>As of today there has been several changes to the initial plan of the hardware idea for Lifelines: the Portable Breathalyzer After meeting
+		<p>As of today there has been several changes to the initial plan of the hardware idea for Lifelines: the Portable Breathalyzer. After meeting
 		with Kristian Medri about our proposal, we realized that a few things needed to be added and changed. Instead of going with just one sensor 
 		that looks at your alcohol level, my group decided to also add a heart rate sensor that will monitor your heart beat. We also realized that 
 		we needed to include a collaboration. We now are working in collaboration with the HRT (Hospitality, Recreation and Tourism) department 
