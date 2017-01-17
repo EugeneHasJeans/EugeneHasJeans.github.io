@@ -88,17 +88,17 @@ similar efforts.
  
 
 This first journal that was found talks about developing safety measures to
-prevent and detect impaired driving. [\@5976365]
+prevent and detect impaired driving. [@5976365]
 
  
 
 The second journal talks about how to create a more precise heart rate reading
-using formulas. [\@6766706]
+using formulas. [@6766706]
 
  
 
 The last journal explains and talks about a certain sensor that measures the
-alcohol concentration in a human.[\@4418374]
+alcohol concentration in a human.[@4418374]
 
  
 
@@ -199,11 +199,7 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | a) Interviews                                                                                | TBD     |                                                                                                                                |
 | **Phase 3 Total**                                                                            | **TBD** |                                                                                                                                |
 
->   Collaborators present.
-
->   1st round of
-
-Presentations.
+>    
 
 | **Material Estimates**     | **Cost**        | **Notes**                    |
 |----------------------------|-----------------|------------------------------|
@@ -225,7 +221,7 @@ Presentations.
 | *Duty*                     | *TBD*           |                              |
 | **Phase 3 Total**          | **TBD**         |                              |
 
->   functionality, fit, and finish of project.
+>    
 
 Concluding remarks
 ==================
