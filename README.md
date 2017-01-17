@@ -1,6 +1,6 @@
 ---
-bibliography: RPiCitations.bib
 csl: apa.csl
+bibliography: RPiCitations.bib
 ---
 
  
@@ -27,6 +27,20 @@ Lifelines: Portable Breathalyzer Project
 ========================================
 
 Project Website: [Lifelines Breathalyzer](https://eugenehasjeans.github.io/)
+
+ 
+
+Table of Contents
+=================
+
+1.[Background Information
+](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#background)
+
+2.[Project Schedule and
+Budget](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#phase-3-demonstration-to-future-employers)
+
+3.[References (Generated
+After)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#references)
 
  
 
