@@ -1,15 +1,23 @@
-September 13th, 2016
+ 
 
-![](media/image1.jpeg)
+![](F:/Users/Eugene Oliver/Desktop/20161112_134008 (1).jpg)
 
-*Proposal for the development of*  
-*Lifelines: Portable Breathalyzer*
+*Proposal for the development of Lifelines: Portable Breathalyzer*
 
 Prepared by Eugene Oliver, Ryan Do, Adriene Almacen
 
 *Computer Engineering Technology Student*
 
 EugeneHasJeans.github.io
+
+ 
+
+Lifelines: Portable Breathalyzer Project
+========================================
+
+Project Website: [Lifelines Breathalyzer](https://eugenehasjeans.github.io/)
+
+ 
 
 Executive Summary 
 ==================
