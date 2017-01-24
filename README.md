@@ -2,6 +2,15 @@
 csl: apa.csl
 bibliography: RPiCitations.bib
 ---
+
+ 
+
+ 
+
+| csl     | bibliography     |
+|---------|------------------|
+| apa.csl | RPiCitations.bib |
+
  
 
 Lifelines: Portable Breathalyzer Project
@@ -227,27 +236,34 @@ Abstract (Executive Summary)
 Table of Contents
 =================
 
-Declaration of Sole Authorship
+[Declaration of Sole
+Authorship](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#declaration-of-sole-authorship)
 
-Approved Proposal
+[Approved
+Proposal](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#approved-proposal)
 
-Abstract
+[Abstract](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#abstract-executive-summary)
 
-Illustrations and Diagrams
+[Illustrations and
+Diagrams](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#illustrations-and-diagrams)
 
-1. Introduction
+1.
+[Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#1-introduction)
 
-2. Software Requirements Specifications (SRS)
+2. [Software Requirements Specifications
+(SRS)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#2-software-requirements-specifications-srs)
 
-2.1 Technology Introduction
+[2.1 Technology
+Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#21-technology-introduction)
 
 2.1.1 Purpose
 
-2.1.2
+2.1.2 Product Overview
 
 2.1.3 Targeted Audience Group
 
-2.2 Product Information
+[2.2 Product
+Information](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#22-product-information)
 
 2.2.1 Main Functionality
 
@@ -255,7 +271,8 @@ Illustrations and Diagrams
 
 2.2.3 Best Performance
 
-2.3 Overall Description
+[2.3 Overall
+Description](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#23-overall-description)
 
 2.3.1 Database
 
@@ -263,7 +280,8 @@ Illustrations and Diagrams
 
 2.3.3 Mobile Application
 
-2.4 Future Considerations
+[2.4 Future
+Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-future-considerations)
 
 2.4.1 Operating Environment
 
