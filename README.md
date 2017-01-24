@@ -283,11 +283,14 @@ Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-fu
 
 2.4.3 Future Additions
 
-3. Conclusions
+[3.
+Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusions)
 
-4. Recommendations
+[4.
+Recommendations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-recommendations)
 
-5. Progress Reports
+[5. Progress
+Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-progress-reports)
 
 Illustrations and Diagrams
 ==========================
