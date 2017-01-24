@@ -241,7 +241,7 @@ Diagrams](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#illustratio
 1.
 [Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#1-introduction)
 
-2. [Software Requirements Specifications
+2 [Software Requirements Specifications
 (SRS)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#2-software-requirements-specifications-srs)
 
     [2.1 Technology
@@ -280,11 +280,11 @@ Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-fu
 
         2.4.3 Future Additions
 
-3. Conclusions
+3 Conclusions
 
-4. Recommendations
+4 Recommendations
 
-5. Progress Reports
+5 Progress Reports
 
 Illustrations and Diagrams
 ==========================
@@ -432,17 +432,17 @@ make this as portable as we possibly can, given the resources that are provided.
 
  
 
-3. Conclusions
+3 Conclusions
 
 ==============
 
-4. Recommendations
+4 Recommendations
 ==================
 
  
 =
 
-5. Progress Reports
+5 Progress Reports
 ===================
 
  
