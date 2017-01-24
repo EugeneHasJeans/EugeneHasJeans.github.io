@@ -2,15 +2,6 @@
 csl: apa.csl
 bibliography: RPiCitations.bib
 ---
-
- 
-
- 
-
-| csl     | bibliography     |
-|---------|------------------|
-| apa.csl | RPiCitations.bib |
-
  
 
 *Proposal for the development of Lifelines: Portable Breathalyzer*
