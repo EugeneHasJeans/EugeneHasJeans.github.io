@@ -4,16 +4,6 @@ bibliography: RPiCitations.bib
 ---
  
 
-*Proposal for the development of Lifelines: Portable Breathalyzer*
-
-Prepared by Eugene Oliver, Ryan Do, Adriene Almacen
-
-*Computer Engineering Technology Student*
-
-EugeneHasJeans.github.io
-
- 
-
 Lifelines: Portable Breathalyzer Project
 ========================================
 
@@ -21,17 +11,21 @@ Project Website: [Lifelines Breathalyzer](https://eugenehasjeans.github.io/)
 
  
 
-Table of Contents
+Declaration of Sole Authorship
+==============================
+
+ 
+
+Approved Proposal
 =================
 
-1.[Background Information
-](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#background)
+*Proposal for the development of Lifelines: Portable Breathalyzer*
 
-2.[Project Schedule and
-Budget](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#phase-3-demonstration-to-future-employers)
+Prepared by Eugene Oliver, Ryan Do, Adriene Almacen
 
-3.[References (Generated
-After)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#references)
+*Computer Engineering Technology Students*
+
+EugeneHasJeans.github.io
 
  
 
@@ -222,6 +216,236 @@ amount of people that dangerously drink and drive above the alcohol limit. This
 is an opportunity to integrate the knowledge and skills developed in our program
 to create a collaborative IoT capstone project demonstrating my ability to learn
 how to support projects. I request approval of this project.
+
+ 
+
+Abstract (Executive Summary)
+============================
+
+ 
+
+Table of Contents
+=================
+
+Declaration of Sole Authorship
+
+Approved Proposal
+
+Abstract
+
+Illustrations and Diagrams
+
+1. Introduction
+
+2. Software Requirements Specifications (SRS)
+
+2.1 Technology Introduction
+
+2.1.1 Purpose
+
+2.1.2
+
+2.1.3 Targeted Audience Group
+
+2.2 Product Information
+
+2.2.1 Main Functionality
+
+2.2.2 Extra Requirements
+
+2.2.3 Best Performance
+
+2.3 Overall Description
+
+2.3.1 Database
+
+2.3.2 Hardware
+
+2.3.3 Mobile Application
+
+2.4 Future Considerations
+
+2.4.1 Operating Environment
+
+2.4.2 Safety Considerations
+
+2.4.3 Future Additions
+
+3. Conclusions
+
+4. Recommendations
+
+5. Progress Reports
+
+Illustrations and Diagrams
+==========================
+
+ 
+=
+
+1. Introduction
+===============
+
+ 
+=
+
+2. Software Requirements Specifications (SRS)
+=============================================
+
+2.1 Technology Introduction
+---------------------------
+
+### 2.1.1 Purpose
+
+The purpose of our Lifelines: Breathalyzer is to make sure people are off the
+roads if they are intoxicated or not safe to drive. Drinking and Driving is a
+huge issue in our world today, and by using this technology to check if there is
+alcohol is someone’s body, we can keep lives out of danger.
+
+### 2.1.2 Product Overview
+
+This product is built using with a custom made PCB board, Raspberry Pi and two
+main sensors. The MQ-3 Gas sensor is what we use when to check if there is
+alcohol in your system. The XD-58C is what we use in our product to check your
+heart rate.
+
+### 2.1.3 Targeted Audience Group
+
+Our targeted audience group would obviously be people over the legal drinking
+age. This device would mainly be used for personal reasons, but in occasion you
+can bring it with you if you were going to a party, or hosting one to make sure
+everyone is safe to be behind a wheel.
+
+ 
+
+2.2 Product Information
+-----------------------
+
+### 2.2.1 Main Functionality
+
+The main functionality of the product is to test a user’s Blood Alcohol Content
+(BAC) and determining if they are okay to drive home or not. If not, then the
+user will be given a number of options such as calling a friend, calling a taxi,
+or finding a hotel/motel to stay at for the night. The user can also measure
+their heart rate as well to see if there is a correlation between their BAC and
+heart rate.
+
+### 2.2.2 Extra Requirements
+
+This breathalyzer uses a rechargeable battery that allows it to be portable. No
+internet connection is needed only Bluetooth connection. This connection allows
+the device to connect to a user’s mobile device.
+
+### 2.2.3 Best Performance
+
+For best performance out of this technology you can consider a few things. To
+get the most accurate reading the heart rate sensor should have a dark colour
+behind it, because of the LED on the sensor it works better with dark areas.
+Also, try not to move as much as possible because when steady you get more
+steady readings.
+
+ 
+
+2.3 Overall Description
+-----------------------
+
+### 2.3.1 Database
+
+We will be using Google’s Firebase mobile and web application platform for user
+authentication on logins and our real-time database. Users will be able to sign
+up for an account and login to access their personal previous alcohol and heart
+rate results, as well as the averages for both blood alcohol content and heart
+rate. The database will be a JSON database which will contain the user’s unique
+ID (UID) as well as user information that is taken from when the user signs up
+for an account. Their UID is automatically generated by Firebase Auth when they
+sign up for an account. Under their UID, holds their name, address, city, phone
+number, province, and licence type. When they perform an alcohol test or heart
+rate test, the resulting data is stored under their UID. The data is then
+fetched and displayed showing the last 5 results and the averages when they
+navigate to the past results page in the mobile application. (Developed by Ryan
+Do)
+
+### 2.3.2 Hardware
+
+The hardware portion of our project is a breathalyzer. This breathalyzer will be
+used to help eliminate drunk driving by giving the user the ability to test
+their blood alcohol content (BAC) level as well as their beat per minute (BPM).
+The device tells the user if it is safe to drive home or gives the user
+alternative options if their unable to drive. The device uses two sensors that
+help determine the users BAC and BPM; it uses an alcohol gas sensor and heart
+rate sensor. The sensors are connected to a Raspberry Pi that runs a program
+that gathers a reading from the sensor. The device itself is inside a small
+acrylic case that holds the contents inside as well as a small rechargeable
+battery to make the device portable. Data from the sensor are also sent to a
+connected device and displayed on an application as well as sent to a database.
+(Developed by Adriene Almacen)
+
+### 2.3.3 Mobile Application
+
+For our project, there will be a mobile android application which will be able
+to show data collected from our Lifelines: Breathalyzer. Once the application is
+open you must sign up and log in to be able to see past results which were read
+from our two sensors on our hardware, MQ-3 Gas Sensor and XD-58C. Without
+logging in/signing up, the past results button would be hidden, which leaves a
+button to start the alcohol test or heartbeat test. After these tests, you will
+be brought to a results page that presents the readings. If the reading from the
+alcohol test detects alcohol in your body, it will give you options to take such
+as calling a friend, calling a taxi or seeing hotels close by to you. The last
+option you would have is to look at past results (if you are logged in). This is
+where the data is taken from the database. The user will be able to look results
+stored in the database which will show them their past BAC and BPM readings that
+were done previously, along with their average BAC and BPM readings. If you are
+logged in, once you run a test it would be added and updated to the database.
+(Developed by Eugene Oliver)
+
+ 
+
+2.4 Future Considerations
+-------------------------
+
+### 2.4.1 Operating Environment
+
+To be able to use our product, you would need an android smartphone or tablet
+that is on android API 19 (Android 4.4 KitKat) or above.
+
+### 2.4.2 Safety Considerations
+
+In order to maintain safety when using this technology you must keep some things
+into consideration:
+
+-   Make sure to keep sanitation in mind when passing the breathalyzer around
+
+-   Do not expose the technology to any liquids to prevent errors in accuracy or
+    malfunctions
+
+-   5 Volts DC is what should be used when providing power to the Lifelines:
+    Breathalyzer
+
+-   Be sure not to tamper with the technology while it is powered on
+
+### 2.4.3 Future Additions
+
+Before the end of the term, we plan on designing and cutting out a new acrylic
+case to house the Raspberry Pi and the sensors we need. We plan on trying to
+make this as portable as we possibly can, given the resources that are provided.
+
+ 
+
+3. Conclusions
+
+==============
+
+4. Recommendations
+==================
+
+ 
+=
+
+5. Progress Reports
+===================
+
+ 
+=
 
 References
 ==========
