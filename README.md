@@ -7,12 +7,6 @@ bibliography: RPiCitations.bib
 
  
 
-| csl     | bibliography     |
-|---------|------------------|
-| apa.csl | RPiCitations.bib |
-
- 
-
 Lifelines: Portable Breathalyzer Project
 ========================================
 
@@ -247,10 +241,10 @@ Proposal](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#approved-pr
 [Illustrations and
 Diagrams](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#illustrations-and-diagrams)
 
-1.
-[Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#1-introduction)
+[1.
+Introduction](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#1-introduction)
 
-2. [Software Requirements Specifications
+[2. Software Requirements Specifications
 (SRS)](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#2-software-requirements-specifications-srs)
 
 [2.1 Technology
@@ -450,8 +444,9 @@ make this as portable as we possibly can, given the resources that are provided.
  
 
 3. Conclusions
-
 ==============
+
+ 
 
 4. Recommendations
 ==================
