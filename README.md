@@ -10,7 +10,7 @@ bibliography: RPiCitations.bib
 Lifelines: Portable Breathalyzer Project
 ========================================
 
-Project Website: [Lifelines Breathalyzer](https://eugenehasjeans.github.io/)
+Project Website: [EugeneHasJeans.github.io](EugeneHasJeans.github.io)
 
  
 
@@ -28,7 +28,7 @@ Prepared by Eugene Oliver, Ryan Do, Adriene Almacen
 
 *Computer Engineering Technology Students*
 
-EugeneHasJeans.github.io
+<https://eugenehasjeans.github.io/>
 
  
 
@@ -52,20 +52,20 @@ department here at Humber college.
 The hardware was completed in CENG 317 Hardware Production Techniques
 independently and the application will be completed in CENG 319 Software
 Project. These will be integrated together in the subsequent term in CENG 355
-Computer Systems Project as a member of a 2 or 3 student group.
+Computer Systems Project as a member of a 3 student group.
 
 Background
 ==========
 
 The problem solved by project is the frequency of people that drink and drive
-and endanger their lives and the lives of others. Using the alcoholic level
+and endanger their lives and the lives of others. Using the alcohol level
 tester, people can realize how much alcohol is actually in their system and from
 that can create a solution for their safety instead of going into a bad path.
 Every year there is a call of help for people to stop drinking and driving, but
 yet every year there are accidents that always lead to a common problem of
 alcohol consumption. Studies have shown that out of all the young drinking
 drivers who cause harm on the road, the largest age group is 19 years of age,
-which is also a big age group for the use of technology and phones/gadgets. I
+which is also a big age group for the use of technology and phones/gadgets. We
 believe that the more people who use this project will lower the rate of this
 problem and bring us one step closer to a solution for drinking and driving.
 
@@ -107,7 +107,7 @@ following topics from the respective relevant courses:
 -   Web access of databases from CENG 256 Internet Scripting; and,  Wireless
     protocols such as 802.11 from TECH152 Telecom Networks.
 
-This knowledge and skill set will enable me to build the subsystems and
+This knowledge and skill set will enable us to build the subsystems and
 integrate them together as my capstone project.
 
 Methodology
@@ -139,7 +139,7 @@ The system integration will be completed in the fall term.
 Phase 3 Demonstration to future employers
 -----------------------------------------
 
-This project will showcase the knowledge and skills that I have learned to
+This project will showcase the knowledge and skills that we have learned to
 potential employers.
 
 The tables below provide rough effort and non-labour estimates respectively for
@@ -203,7 +203,7 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | a) Materials to improve    |                 |                              |
 | **Phase 2 Total**          | **TBD**         |                              |
 | **Phase 3**                |                 |                              |
-| a) Off campus colocation   | \<\$100.00      | An example: [4].             |
+| a) Off campus colocation   | \<\$100.00      |                              |
 | *Shipping*                 | *TBD*           |                              |
 | *Tax*                      | *TBD*           |                              |
 | *Duty*                     | *TBD*           |                              |
