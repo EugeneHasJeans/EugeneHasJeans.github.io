@@ -14,10 +14,21 @@ Project Website: [EugeneHasJeans.github.io](EugeneHasJeans.github.io)
 
  
 
-Declaration of Sole Authorship
-==============================
+Declaration of Joint Authorship
+===============================
 
- 
+The team “Designated Drivers” which consists of Eugene Oliver, Ryan Do, and
+Adriene Almacen confirms that the project of the Lifelines Breathalyzer is a
+combined group effort and is a combination of our own thoughts and ideas. The
+work of this entire project was split as equally as possible. Eugene Oliver
+worked with calibrating the sensors and was in charge of hardware design and
+working with the app layouts. Ryan Do worked with the database in terms of
+setting it up, connecting it with the app and maintaining it. Adriene Almacen
+was in charge of mobile application design and maintenance. The distribution of
+testing the hardware and software for bugs and issues are discussed by the three
+of us and worked on all together. Before any changes were done on the project, a
+group consensus had to be made. All work that was used for guidance and help has
+been acknowledged and cited in the reference area of this report.
 
 Approved Proposal
 =================
@@ -33,7 +44,7 @@ Prepared by Eugene Oliver, Ryan Do, Adriene Almacen
  
 
 Executive Summary
-=================
+-----------------
 
 As students in the Computer Engineering Technology program, we will be
 integrating the knowledge and skills we have learned from our program into this
@@ -55,7 +66,7 @@ Project. These will be integrated together in the subsequent term in CENG 355
 Computer Systems Project as a member of a 3 student group.
 
 Background
-==========
+----------
 
 The problem solved by project is the frequency of people that drink and drive
 and endanger their lives and the lives of others. Using the alcohol level
@@ -111,7 +122,7 @@ This knowledge and skill set will enable us to build the subsystems and
 integrate them together as my capstone project.
 
 Methodology
-===========
+-----------
 
 This proposal is assigned in the first week of class and is due at the beginning
 of class in the second week of the fall semester. My coursework will focus on
@@ -123,8 +134,7 @@ Phase 2 System integration.
 
 Phase 3 Demonstration to future employers.
 
-Phase 1 Hardware build
-----------------------
+### Phase 1 Hardware build
 
 The hardware build will be completed in the fall term. It will fit within the
 CENG Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
@@ -136,8 +146,7 @@ as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.
 
 The system integration will be completed in the fall term.
 
-Phase 3 Demonstration to future employers
------------------------------------------
+### Phase 3 Demonstration to future employers
 
 This project will showcase the knowledge and skills that we have learned to
 potential employers.
@@ -212,7 +221,7 @@ important to start tasks as soon as possible to be able to meet deadlines.
 >    
 
 Concluding remarks
-==================
+------------------
 
 This proposal presents a plan for providing an IoT solution for the abnormal
 amount of people that dangerously drink and drive above the alcohol limit. This
@@ -224,6 +233,18 @@ how to support projects. I request approval of this project.
 
 Abstract (Executive Summary)
 ============================
+
+The purpose of this breathalyzer is to keep intoxicated drivers off the road. As
+drunk driving is one of the leading causes of accidents on the road. This
+breathalyzer can help eliminate drunk driving by determining the users blood
+alcohol content (BAC) as well as their beats per minute (BPM), so that users can
+determine beforehand if they are able to drive home safely. When the alcohol or
+heart rate test is taken, data is retrieved from the sensors and stored on a
+database. In addition, the data is also displayed on an android application
+along with the date and time of when the test was taken. Furthermore, the
+android application will aid the user by allowing them to determine if it is
+safe to drive and will be given options such as calling a friend, calling a taxi
+or seeking the nearest hotels in the area.
 
  
 
@@ -301,8 +322,22 @@ Illustrations and Diagrams
 1. Introduction
 ===============
 
+Alcohol and driving under the influence continues to become a major problem in
+today’s society and every year, many lives are taken due to accidents caused by
+drunk driving. Most people do not own a breathalyzer and many bars are not
+required to carry one due to the high cost. The work described in this technical
+report was undertaken because we wanted to try to create a solution where you
+can track your Blood Alcohol Concentration (BAC) as well as your heart rate and
+present the user with options depending on what range their BAC falls under. Our
+breathalyzer connects to an android phone where our mobile app displays readings
+and stores them into a database providing past history records to lookup in the
+future. The mobile app provides user accounts to be able to synchronize data
+across multiple devices and retrieve data from the database to display the
+average values for the BAC and heart rate. After the user provides a breath
+sample and a reading shows up, a choice is presented to the user to either call
+for a taxi, call a friend, or find a hotel nearby.
+
  
-=
 
 2. Software Requirements Specifications (SRS)
 =============================================
@@ -460,8 +495,39 @@ make this as portable as we possibly can, given the resources that are provided.
 5. Progress Reports
 ===================
 
- 
-=
+### Third Week of Winter Semester:
+
+As of today we are currently on track with our project. Our project proposal
+with inline citation has been submitted as well as both the skeleton, and our
+software requirement specification. In the near future we plan to discuss our
+project with the HRT – Hospitality, Recreation and Tourism department at Humber
+College for guidance, help and additional planning.  
+  
+In terms of our actual project, everything is on schedule. The layout for our
+Database and mobile application has been created and we just need to connect the
+following to our Hardware. We plan on having the data from the alcohol gas
+sensor and heart rate sensor display on our mobile application and store it on a
+database.    
+  
+A problem that we have encountered and realized in the past weeks is that since
+we are using Eugene’s hardware, the size of the acrylic case he made has his
+name on it from last semester. It is also a bit large in size, and in order to
+solve this we plan on creating a smaller more compact case. We also initially
+planned to have out Brethalyzer as a portable device for users to move and bring
+around easily. However, we currently power our Raspberry Pi with a Micro-USB
+power adapter plugged into a wall outlet. To fix this issue, we are planning to
+include a micro-usb portable charger to our budger/project that can power the
+Lifelines: Breathalyzer.  
+  
+In regards to the budget, a small addition will be included in the future as we
+will be ordering a portable battery so that we can power our Raspberry Pi and
+make the device portable. This portable battery will cost somewhere between
+\$20-\$30 for a power bank strong enough to power the Raspberry Pi.  
+  
+In the future, we plan to keep working on the things required to get us to the
+end goal of our Lifelines: Breathalyzer, along with doing thing things to
+complete our technical report. We hope in the near future to be able to merge
+our database, mobile application and hardware into a complete working project. 
 
 References
 ==========
