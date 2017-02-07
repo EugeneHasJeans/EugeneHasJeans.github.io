@@ -41,8 +41,6 @@ Prepared by Eugene Oliver, Ryan Do, Adriene Almacen
 
 <https://eugenehasjeans.github.io/>
 
- 
-
 Executive Summary
 -----------------
 
@@ -251,8 +249,8 @@ or seeking the nearest hotels in the area.
 Table of Contents
 =================
 
-[Declaration of Sole
-Authorship](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#declaration-of-sole-authorship)
+[Declaration of Joint
+Authorship](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#declaration-of-joint-authorship)
 
 [Approved
 Proposal](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#approved-proposal)
@@ -501,14 +499,14 @@ As of today we are currently on track with our project. Our project proposal
 with inline citation has been submitted as well as both the skeleton, and our
 software requirement specification. In the near future we plan to discuss our
 project with the HRT – Hospitality, Recreation and Tourism department at Humber
-College for guidance, help and additional planning.  
-  
+College for guidance, help and additional planning.
+
 In terms of our actual project, everything is on schedule. The layout for our
 Database and mobile application has been created and we just need to connect the
 following to our Hardware. We plan on having the data from the alcohol gas
 sensor and heart rate sensor display on our mobile application and store it on a
-database.    
-  
+database.  
+
 A problem that we have encountered and realized in the past weeks is that since
 we are using Eugene’s hardware, the size of the acrylic case he made has his
 name on it from last semester. It is also a bit large in size, and in order to
@@ -517,13 +515,13 @@ planned to have out Brethalyzer as a portable device for users to move and bring
 around easily. However, we currently power our Raspberry Pi with a Micro-USB
 power adapter plugged into a wall outlet. To fix this issue, we are planning to
 include a micro-usb portable charger to our budger/project that can power the
-Lifelines: Breathalyzer.  
-  
+Lifelines: Breathalyzer.
+
 In regards to the budget, a small addition will be included in the future as we
 will be ordering a portable battery so that we can power our Raspberry Pi and
 make the device portable. This portable battery will cost somewhere between
-\$20-\$30 for a power bank strong enough to power the Raspberry Pi.  
-  
+\$20-\$30 for a power bank strong enough to power the Raspberry Pi.
+
 In the future, we plan to keep working on the things required to get us to the
 end goal of our Lifelines: Breathalyzer, along with doing thing things to
 complete our technical report. We hope in the near future to be able to merge
