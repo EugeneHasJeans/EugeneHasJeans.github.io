@@ -333,9 +333,19 @@ future. The mobile app provides user accounts to be able to synchronize data
 across multiple devices and retrieve data from the database to display the
 average values for the BAC and heart rate. After the user provides a breath
 sample and a reading shows up, a choice is presented to the user to either call
-for a taxi, call a friend, or find a hotel nearby.
+for a taxi, call a friend, or find a hotel nearby.The objective of this
+breathalyzer is to reduce the amount of drunk drivers that danger themselves and
+others while on the road. When working with the breathalyzer we ran into
+multiple problems. One of the problems was creating a case that is small enough
+to bring around easily, but big enough to hold all the components. This was
+fixed by creating a smaller case compared to our original one. Another problem
+was having to find a way to power the Raspberry Pi without using the AC adapter.
+The solution to this, was finding a small 5V portable charger that has a
+micro-usb connection. A unique approach in this project was seeing the best way
+to calibrate both sensors. We realized that the heart rate sensor works best
+when there is a black surface underneath it. The alcohol sensor has a
+potentiometer that can adjust the sensitivity of the readings.  
 
- 
 
 2. Software Requirements Specifications (SRS)
 =============================================
