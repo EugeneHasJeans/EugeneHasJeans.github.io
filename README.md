@@ -232,17 +232,17 @@ how to support projects. I request approval of this project.
 Abstract (Executive Summary)
 ============================
 
-The purpose of this breathalyzer is to keep intoxicated drivers off the road. As
+The purpose of this breathalyzer is to help prevent drinking and driving. As
 drunk driving is one of the leading causes of accidents on the road. This
-breathalyzer can help eliminate drunk driving by determining the users blood
-alcohol content (BAC) as well as their beats per minute (BPM), so that users can
-determine beforehand if they are able to drive home safely. When the alcohol or
-heart rate test is taken, data is retrieved from the sensors and stored on a
-database. In addition, the data is also displayed on an android application
-along with the date and time of when the test was taken. Furthermore, the
-android application will aid the user by allowing them to determine if it is
-safe to drive and will be given options such as calling a friend, calling a taxi
-or seeking the nearest hotels in the area.
+breathalyzer can help fix the issue of drunk driving by determining the users
+blood alcohol content (BAC) as well as their beats per minute (BPM), so that
+users can determine beforehand if they are able to drive home safely. When the
+alcohol or heart rate test is taken, data is retrieved from the sensors and
+stored on a database. In addition, the data is also displayed on an android
+application along with the date and time of when the test was taken.
+Furthermore, the android application will aid the user by allowing them to
+determine if it is safe to drive and will be given options such as calling a
+friend, calling a taxi or seeking the nearest hotels in the area.
 
  
 
@@ -532,8 +532,7 @@ parts are pretty cheap which makes this project not that expensive, but that is
 because we already had a raspberry pi, electronic parts kit, and the PCB kit was
 paid for as a part of our tuition. It is important to mention that these prices
 do vary considering where you get them, you don't need to buy the exact same
-parts as us.  
-
+parts as us.
 
 | **Item**                   | **Quantity** | **Cost**  | **Supplier & Part Number**        |
 |----------------------------|--------------|-----------|-----------------------------------|
@@ -547,8 +546,7 @@ parts as us.
 | Power Cables/Connectors    | 1            | included  | Humber/Amazon                     |
 
 Again, these are just the parts and prices for the things qw bought. Prices may
-change over time, but our total comes to around \$350.  
-
+change over time, but our total comes to around \$350.
 
 ### 2.5.3 Time Commitment
 
@@ -558,8 +556,7 @@ work had to be juggled with other courses, which is why as a whole it took about
 15 weeks to complete everything. If you work on this continuously with no other
 tasks in your way, it shouldn't take that long considering you do everything
 correctly! In this chart below, we break down how much time was taken on each
-main task of the project.  
-
+main task of the project.
 
 | Thing To Be Done                            | Time Taken To Complete (Approx.) |
 |---------------------------------------------|----------------------------------|
@@ -571,7 +568,6 @@ main task of the project.
 | Testing/calibrating the sensors             | 2 hours                          |
 | Setting up the project                      | 5 minutes                        |
 
-  
 After breaking down the parts of the project, it is pretty easy to tell that
 it's not a very time consuming project to complete. If you are very committed to
 this project then it shouldn't be very difficult to complete this in these time
@@ -618,7 +614,9 @@ they would help you out. Majority of the soldering was done while looking at the
 reference model they had at the lab, we also used the solder and soldering iron
 they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
-properly test it to make sure it works. 
+properly test it to make sure it works. Below is an image of the board file.
+
+![](https://rdoughboy.github.io/images/Board.png)
 
 ##### Assembling and Power Up
 
@@ -636,7 +634,50 @@ check and make sure everything is wired correctly, and make sure that there are
 no problems. Go ahead and plug the USB's into the Raspberry Pi, power it on and
 see if it works. You can see if the sensors are being detected by using the
 command *"i2cdetect -y 1"* on a terminal and you should see 48, which
-corresponds to the Modular Sense Hat!
+corresponds to the Modular Sense Hat! Below is the code we created and can be
+ran by putting it in a file named *lifelines.py*, and can be ran by typing
+*“python lifelines.py”* in terminal.
+
+ 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        import time
+        import RPi.GPIO as GPIO
+        GPIO.VERSION
+        GPIO.setmode(GPIO.BOARD)
+        GPIO.setup(11,GPIO.OUT)
+        GPIO.setup(12,GPIO.OUT)
+
+        from smbus import SMBus
+
+        bus = SMBus(1)
+
+        #read the sensors given the pin
+        def read_ain(i):    
+            global bus
+            bus.write_byte(0x48, i)
+            bus.read_byte(0x48)
+            bus.read_byte(0x48)
+            return bus.read_byte(0x48)
+
+        while(True):
+            alcohol = read_ain(2)*0.001     #read the alcohol sensor on pin 2
+            heartrate = read_ain(1)         #read the heartrate sensor on pin 1
+
+            print "-------------------------\n"
+            print("Alcohol Sensor: {0:.3f}%".format(alcohol))   #print alcohol reading
+            
+            #turn on the LED when alcohol level is above 0.08%
+            if(alcohol>0.08):
+            GPIO.output(11,0)
+            GPIO.output(12,1)
+            else:
+            GPIO.output(11,1)
+            GPIO.output(12,0)
+            
+            print("Heart Rate Sensor: {0:.0f} BPM\n".format(heartrate))     #print heartrate reading
+            time.sleep(1)#update every 1 second
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
