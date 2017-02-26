@@ -302,14 +302,27 @@ Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-fu
 
 2.4.3 Future Additions
 
+2.5 Build Instructions
+
+2.5.1 Introduction
+
+2.5.2 Bill of Materials
+
+2.5.3 Time Commitment
+
+2.5.4 Mechanical Assembly and Setup
+
+2.5.5 Testing
+
+2.5.6 Reproducible
+
+2.6 Progress Report
+
 [3.
 Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusions)
 
 [4.
-Recommendations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-recommendations)
-
-[5. Progress
-Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-progress-reports)
+Recommendations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-recommendationshttps://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-progress-reports)
 
 Illustrations and Diagrams
 ==========================
@@ -344,8 +357,7 @@ The solution to this, was finding a small 5V portable charger that has a
 micro-usb connection. A unique approach in this project was seeing the best way
 to calibrate both sensors. We realized that the heart rate sensor works best
 when there is a black surface underneath it. The alcohol sensor has a
-potentiometer that can adjust the sensitivity of the readings.  
-
+potentiometer that can adjust the sensitivity of the readings.
 
 2. Software Requirements Specifications (SRS)
 =============================================
@@ -489,21 +501,209 @@ make this as portable as we possibly can, given the resources that are provided.
 
  
 
-3. Conclusions
-==============
+2.5 Build Instructions
+----------------------
+
+### 2.5.1 Introduction
+
+This section will give you the main instructions and provide help if you want to
+create your own Lifelines: Breathalyzer. The Designated Drivers, a group
+consisting of Eugene Oliver, Ryan Do, and Adriene Almacen chose to create this
+project because we feel like this is a good step to take in order to fix the
+problem of drinking and driving. Instead of people thinking they're okay to
+drive with alcohol in their body, they can use our project to see if there is a
+great amount of alcohol in their body along with seeing their heart rate. It's a
+cheap alternative, and isn't too hard to make yourself!
+
+Using a gas and a heartbeat sensor, users can plug those into a PCB and use a
+raspberry pi to display the readings on either a computer or phone when the app
+is ready and completed!
+
+![](https://eugenehasjeans.github.io/images/sysdiagram.jpg)
 
  
 
-4. Recommendations
-==================
+### 2.5.2 Bill of Materials
+
+Required parts and materials for this project are shown below. Most of these
+parts are pretty cheap which makes this project not that expensive, but that is
+because we already had a raspberry pi, electronic parts kit, and the PCB kit was
+paid for as a part of our tuition. It is important to mention that these prices
+do vary considering where you get them, you don't need to buy the exact same
+parts as us.
 
  
-=
 
-5. Progress Reports
-===================
+| **Item**                   | **Quantity** | **Cost**  | **Supplier & Part Number**        |
+|----------------------------|--------------|-----------|-----------------------------------|
+| Raspberry Pi 3 Starter Kit | 1            | \$119.99  | (Canakit) Amazon - B01CCF9BYG     |
+| MQ-3 Sensor                | 1            | \$11.95   | Amazon.ca - B01ISMV6G8            |
+| XD-58C Sensor              | 1            | \$18.99   | (JutaTech) Amazon.ca - B01AUVMFIS |
+| Electronics Parts Kit      | 1            | \$119.99  | Humber - SKU \#163                |
+| Jumper Wires (120 pack)    | 1            | \$19.99   | (Elegoo) Amazon.ca - B01EV70C78   |
+| Solder Kit                 | 1            | \~\$40.00 | Humber                            |
+| Soldering Iron             | 1            | \~\$20.00 | Humber                            |
+| Power Cables/Connectors    | 1            | included  | Humber/Amazon                     |
 
-### Third Week of Winter Semester:
+Again, these are just the parts and prices for the things qw bought. Prices may
+change over time, but our total comes to around \$350.
+
+ 
+
+### 2.5.3 Time Commitment
+
+Lifelines: Breathalyzer is a project that we worked on in our last year in
+Computer Engineering Technology. In the 5th semester of this program a lot of
+work had to be juggled with other courses, which is why as a whole it took about
+15 weeks to complete everything. If you work on this continuously with no other
+tasks in your way, it shouldn't take that long considering you do everything
+correctly! In this chart below, we break down how much time was taken on each
+main task of the project.  
+
+
+| Thing To Be Done                            | Time Taken To Complete (Approx.) |
+|---------------------------------------------|----------------------------------|
+| Looking for and Purchasing Parts + Delivery | 1.5 hours + 2 weeks              |
+| Assembling case and setting up Raspberry Pi | 1 hour                           |
+| Editing your custom PCB                     | 30 minutes                       |
+| Soldering/Testing/Troubleshooting your PCB  | 3 hours                          |
+| Creating a case for your project            | 1 hour                           |
+| Testing/calibrating the sensors             | 2 hours                          |
+| Setting up the project                      | 5 minutes                        |
+
+###  
+
+After breaking down the parts of the project, it is pretty easy to tell that
+it's not a very time consuming project to complete. If you are very committed to
+this project then it shouldn't be very difficult to complete this in these time
+frames.
+
+ 
+
+### 2.5.4 Mechanical Assembly and Setup
+
+To keep things simple, for mechanical assembly we will need to break up the
+parts into main sections. First we will talk about how you have to set up the
+raspberry Pi, what needed to be done in order for it to work properly. Next we
+will talk about creating your own PCB, and soldering it. After that we will talk
+about connecting the parts together and powering it up. Lets get started!
+
+ 
+
+#### Raspberry Pi
+
+These steps might vary if you get different parts, my Raspberry Pi starter kit
+included a lot of things to make the process a lot easier.Once you receive your
+Raspberry Pi, you can start by connecting a keyboard and mouse to the USB ports.
+Next go ahead and push in the SD card included, and use the HDMI connector and
+connect it to a monitor so you will be able to see the display. Lastly, plug in
+the power adapter to turn on the raspberry pi. Things will flash on the screen
+and text will flood a black terminal, but eventually it will stop, allowing for
+input. The most important thing to do is run the command "sudo apt-get update"
+which is really important because it will give the newest and most stable
+updates for your raspberry pi. "Startx" should be used to get into the desktop.
+Connect to the internet in whichever way is best, to make sure all is working
+properly.
+
+ 
+
+#### PCB/Soldering
+
+Next thing to start working on would be the PCB. The PCB provided to us by the
+Humber Prototype Lab is what we used to hold majority of our project. First
+download the program EAGLE, and the required board and schematic file which is
+provided by Humber College. The schematic and board file are just a generic
+student file so the name will need to be changed. Lastly we went to the
+prototype lab and asked what else they needed for us to print our board, and
+they asked for these two files and the rest was done by them!
+
+When soldering the PCB, Vlad and Kelly at the Humber Prototype Lab really helped
+out. If you had a question on how to test it or where to solder some things,
+they would help you out. Majority of the soldering was done while looking at the
+reference model they had at the lab, we also used the solder and soldering iron
+they had there so we didn't need to buy our own. Once done, you should consult
+to Vlad and Kelly to make sure you've done it right, they will show you how to
+properly test it to make sure it works. 
+
+ 
+
+##### Assembling and Power Up
+
+When the Raspberry Pi is setup, and the PCB is finished and soldered you can now
+set up the rest of the project. Get the Modular Sense Hat and connect it
+properly into the header labelled PFC-ADC on the board. Take the MQ-3 sensor,
+connnect the positive to 5V, negative to ground and analog signal pin to the
+AIN1 pin on the Modular Sense Hat. Take the Heartbeat sensor, connect positive
+to VCC in the header labelled DS-RTC on the board, negative to ground, and
+signal ping to the AIN2 pin on the Modular Sense Hat. Lastly, using the 24-pin
+GPIO header on the PCB board, connect it to the Raspberry Pi firmly so it's set.
+
+Once everything prior was completed, the only thing left is power up. Do a quick
+check and make sure everything is wired correctly, and make sure that there are
+no problems. Go ahead and plug the USB's into the Raspberry Pi, power it on and
+see if it works. You can see if the sensors are being detected by using the
+command *"i2cdetect -y 1"* on a terminal and you should see 48, which
+corresponds to the Modular Sense Hat!
+
+ 
+
+### 2.5.5 Testing
+
+#### Unit Testing
+
+For unit testing there wasn't a lot of things to be done. The unit testing we
+did was the individual sensors. To test the MQ-3 sensor, we created a small and
+short code which allows us to see a continuous loop for the MQ-3 reading, which
+allowed us to see the readings change if you blow into it. Considering you're
+not intoxicated, the readings shouldn't go up while the code is running. You can
+now take a rubbing alcohol bottle, or to be safer you can just use a hand
+sanitizer bottle and squeeze out some air into the sensor, then the reading
+should start to go up. For the heartbeat sensor all we needed to do was alter
+our previous code for the MQ-3 sensor, run it and now put a finger onto the
+green light of the sensor and watch the screen. If done correctly the reading
+should drop down to a number lower than 10, and then give you a more accurate
+reading of something between 70-80 after five or so seconds. If both of these
+work properly, well done!
+
+ 
+
+##### Production Testing
+
+Now that we're at the last step and we're sure that everything is working
+properly, all we had to do was combine the two codes from unit testing and run
+it! If everything works properly the code should work and you should be getting
+successful readings from both sensors if working properly. we also added a code
+for the LED on the PCB board so now, the LED will be red if a impossible reading
+for the heart beat is detected, so if the reading is less than 60 or greater
+than 100, the reading is inaccurate or your heart rate is not stable.
+
+To end this project off you can create your own case using the program
+CorelDraw, which allows you to create a sketch for your case. The own personal
+touch is nice, and you can add just about anything. Once done you can save the
+file you created on CorelDraw into a pdf, and bring it to the prototype lab and
+see if everything is correct for it to print. It will just take a couple of
+minutes, then you'll have everything done and in your hands. All you have to do
+is put the Lifelines: Breathalyzer into the case, and make sure everything is
+where you want it! That's it!
+
+ 
+
+### 2.5.6 Reproducible
+
+If you follow this guide step by step and everything seems to be working at the
+end then yes, this project is very reproducible! In a few days, you can have
+your very own Lifelines: Breathalyzer product, the only thing that would keep
+you from doing it much faster would be the delivery dates on items. After
+putting in the hard work, you can use it to impress people with and hopefully
+use it yourself to keep you far away from drunk driving! You yourself can help
+reduce the problem of drinking and driving just by making this, so get started!
+
+ 
+
+2.6 Progress Reports
+--------------------
+
+#### Progress Report [30/01/2017] - Sent by Adriene Almacen
 
 As of today we are currently on track with our project. Our project proposal
 with inline citation has been submitted as well as both the skeleton, and our
@@ -536,6 +736,64 @@ In the future, we plan to keep working on the things required to get us to the
 end goal of our Lifelines: Breathalyzer, along with doing thing things to
 complete our technical report. We hope in the near future to be able to merge
 our database, mobile application and hardware into a complete working project. 
+
+ 
+
+#### Progress Report [14/02/2017] - Sent by Ryan Do
+
+As of today, we are currently on track with our project. We have added more to
+the structure of the Technical Report as well as the Abstract, the Introduction,
+and the Declaration of Joint Authorship. We are still planning to meet up with
+Humber HRT – School of Hospitality, Recreation and Tourism in the coming weeks
+to discuss our project and see what kind of equipment they use.
+
+During the past two weeks, Eugene has been working on a new design for the
+acrylic case to house our portable breathalyzer. He has also been tweaking with
+the sensitivity of the alcohol gas sensor to get as accurate as we can. A
+problem that Eugene has encountered is that the potentiometer on the alcohol gas
+sensor is very sensitive, and a small turn is able to make the reading change
+drastically. To fix this, he has put a small piece of cardboard or paper on top
+and taping to prevent it from turning.
+
+Adriene has been working on changing some aspects of the mobile app with respect
+to the design, trying to make it more user friendly. He is in the process of
+changing the main screen to be a tabbed layout with the three main functions
+instead of having a different page for each of the different functions. A
+problem that he has encountered is how to display the past records tab when the
+user is logged in, and hide it when the user is not logged in. He was able to
+deal with it by detecting if a firebase user was authenticated and logged in and
+then setting the visibility of the tab to zero.
+
+I have been working on the JSON database from Firebase and adding the date and
+time of when the test was taken to be able to categorize and keep track of when
+the data was entered into the database. A problem that I have encountered is
+that since our device is not yet connected with our mobile app, I could not get
+any real data to be inserted to the database to see if the time and date
+function works. I have resorted to having a button add a set number to the
+database to check for the time and date functionality.
+
+Altogether, we have been searching for an external battery pack and have
+narrowed down our choices to a select few batteries that we think would work
+well with our project. This will be the last item to add to our budget, which
+will bring our total to around \$360.
+
+In the coming weeks, we plan to continue to work towards integrating our
+portable breathalyzer with our mobile app along with working on the technical
+report. We hope that by the open house, we are able to fully integrate
+everything together and have most of the core components working.
+
+ 
+
+3. Conclusions
+==============
+
+ 
+
+4. Recommendations
+==================
+
+ 
+=
 
 References
 ==========
