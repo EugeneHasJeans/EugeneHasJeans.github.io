@@ -302,7 +302,8 @@ Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-fu
 
 2.4.3 Future Additions
 
-2.5 Build Instructions
+[2.5 Build
+Instructions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#25-build-instructions)
 
 2.5.1 Introduction
 
@@ -316,7 +317,8 @@ Considerations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#24-fu
 
 2.5.6 Reproducible
 
-2.6 Progress Report
+[2.6 Progress
+Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#26-progress-reports)
 
 [3.
 Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusions)
@@ -530,9 +532,8 @@ parts are pretty cheap which makes this project not that expensive, but that is
 because we already had a raspberry pi, electronic parts kit, and the PCB kit was
 paid for as a part of our tuition. It is important to mention that these prices
 do vary considering where you get them, you don't need to buy the exact same
-parts as us.
+parts as us.  
 
- 
 
 | **Item**                   | **Quantity** | **Cost**  | **Supplier & Part Number**        |
 |----------------------------|--------------|-----------|-----------------------------------|
@@ -546,9 +547,8 @@ parts as us.
 | Power Cables/Connectors    | 1            | included  | Humber/Amazon                     |
 
 Again, these are just the parts and prices for the things qw bought. Prices may
-change over time, but our total comes to around \$350.
+change over time, but our total comes to around \$350.  
 
- 
 
 ### 2.5.3 Time Commitment
 
@@ -571,8 +571,7 @@ main task of the project.
 | Testing/calibrating the sensors             | 2 hours                          |
 | Setting up the project                      | 5 minutes                        |
 
-###  
-
+  
 After breaking down the parts of the project, it is pretty easy to tell that
 it's not a very time consuming project to complete. If you are very committed to
 this project then it shouldn't be very difficult to complete this in these time
@@ -588,8 +587,6 @@ raspberry Pi, what needed to be done in order for it to work properly. Next we
 will talk about creating your own PCB, and soldering it. After that we will talk
 about connecting the parts together and powering it up. Lets get started!
 
- 
-
 #### Raspberry Pi
 
 These steps might vary if you get different parts, my Raspberry Pi starter kit
@@ -604,8 +601,6 @@ which is really important because it will give the newest and most stable
 updates for your raspberry pi. "Startx" should be used to get into the desktop.
 Connect to the internet in whichever way is best, to make sure all is working
 properly.
-
- 
 
 #### PCB/Soldering
 
@@ -624,8 +619,6 @@ reference model they had at the lab, we also used the solder and soldering iron
 they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
 properly test it to make sure it works. 
-
- 
 
 ##### Assembling and Power Up
 
@@ -664,8 +657,6 @@ green light of the sensor and watch the screen. If done correctly the reading
 should drop down to a number lower than 10, and then give you a more accurate
 reading of something between 70-80 after five or so seconds. If both of these
 work properly, well done!
-
- 
 
 ##### Production Testing
 
@@ -736,8 +727,6 @@ In the future, we plan to keep working on the things required to get us to the
 end goal of our Lifelines: Breathalyzer, along with doing thing things to
 complete our technical report. We hope in the near future to be able to merge
 our database, mobile application and hardware into a complete working project. 
-
- 
 
 #### Progress Report [14/02/2017] - Sent by Ryan Do
 
