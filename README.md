@@ -85,15 +85,10 @@ similar efforts.
  
 
 This first journal that was found talks about developing safety measures to
-prevent and detect impaired driving. [@5976365]
-
- 
-
+prevent and detect impaired driving.  
+[@5976365]  
 The second journal talks about how to create a more precise heart rate reading
-using formulas. [@6766706]
-
- 
-
+using formulas. [@6766706]  
 The last journal explains and talks about a certain sensor that measures the
 alcohol concentration in a human.[@4418374]
 
@@ -315,8 +310,6 @@ Instructions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#25-buil
 
 2.5.5 Testing
 
-2.5.6 Reproducible
-
 [2.6 Progress
 Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#26-progress-reports)
 
@@ -325,6 +318,9 @@ Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclu
 
 [4.
 Recommendations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-recommendationshttps://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-progress-reports)
+
+[5.
+References](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-references)
 
 Illustrations and Diagrams
 ==========================
@@ -361,8 +357,8 @@ to calibrate both sensors. We realized that the heart rate sensor works best
 when there is a black surface underneath it. The alcohol sensor has a
 potentiometer that can adjust the sensitivity of the readings.
 
-2. Software Requirements Specifications (SRS)
-=============================================
+2. System Requirements Specifications
+=====================================
 
 2.1 Technology Introduction
 ---------------------------
@@ -520,6 +516,13 @@ cheap alternative, and isn't too hard to make yourself!
 Using a gas and a heartbeat sensor, users can plug those into a PCB and use a
 raspberry pi to display the readings on either a computer or phone when the app
 is ready and completed!
+
+You can have your very own Lifelines: Breathalyzer product just by following
+this section. The only thing that would keep you from doing it much faster would
+be the delivery dates on items. After putting in the hard work, you can use it
+to impress people with and hopefully use it yourself to keep you far away from
+drunk driving. You yourself can help reduce the problem of drinking and driving
+just by making this.
 
 ![](https://eugenehasjeans.github.io/images/sysdiagram.jpg)
 
@@ -720,18 +723,6 @@ where you want it! That's it!
 
  
 
-### 2.5.6 Reproducible
-
-If you follow this guide step by step and everything seems to be working at the
-end then yes, this project is very reproducible! In a few days, you can have
-your very own Lifelines: Breathalyzer product, the only thing that would keep
-you from doing it much faster would be the delivery dates on items. After
-putting in the hard work, you can use it to impress people with and hopefully
-use it yourself to keep you far away from drunk driving! You yourself can help
-reduce the problem of drinking and driving just by making this, so get started!
-
- 
-
 2.6 Progress Reports
 --------------------
 
@@ -825,5 +816,5 @@ everything together and have most of the core components working.
  
 =
 
-References
-==========
+5. References
+=============
