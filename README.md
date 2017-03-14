@@ -1,7 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "<br March 28, 2017/>\\pagebreak"
+title: "\\pagebreak"
 ---
 
  
