@@ -1,6 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
+title: "Lifelines Breathalyzer  \nBy: Designated Drivers  \nEugene Oliver  \nRyan Do  \nAdriene Almacen  \n  \n  \nMarch 28, 2017  \n"
 ---
 
  
@@ -224,8 +225,8 @@ how to support projects. I request approval of this project.
 
  
 
-Abstract (Executive Summary)
-============================
+Abstract 
+=========
 
 The purpose of this breathalyzer is to help prevent drinking and driving. As
 drunk driving is one of the leading causes of accidents on the road. This
