@@ -1,10 +1,12 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "\\pagebreak"
+title: ""
 ---
 
  
+
+\\pagebreak
 
 Lifelines: Portable Breathalyzer Project
 ========================================
