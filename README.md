@@ -1,7 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer    \nBy: Designated Drivers    \nEugene Oliver    \nRyan Do    \nAdriene Almacen    \nMarch 28, 2017\\pagebreak"
+title: "March 28, 2017\\pagebreak"
 ---
 
  
