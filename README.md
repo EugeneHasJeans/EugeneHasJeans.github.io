@@ -1,10 +1,10 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer  \nBy: Designated Drivers  \nEugene Oliver  \nRyan Do  \nAdriene Almacen  \n  \n  \nMarch 28, 2017  \n"
+title: "Lifelines Breathalyzer  \nBy: Designated Drivers  \nEugene Oliver  \nRyan Do  \nAdriene Almacen  \n  \nMarch 28, 2017"
 ---
 
-\*\*\*\*\*
+\pagebreak
 
  
 
@@ -225,8 +225,8 @@ how to support projects. I request approval of this project.
 
  
 
-Abstract 
-=========
+Abstract
+========
 
 The purpose of this breathalyzer is to help prevent drinking and driving. As
 drunk driving is one of the leading causes of accidents on the road. This
@@ -545,12 +545,13 @@ parts as us.
 | XD-58C Sensor              | 1            | \$18.99   | (JutaTech) Amazon.ca - B01AUVMFIS |
 | Electronics Parts Kit      | 1            | \$119.99  | Humber - SKU \#163                |
 | Jumper Wires (120 pack)    | 1            | \$19.99   | (Elegoo) Amazon.ca - B01EV70C78   |
+| TP-Link 5200mAh Charger    | 1            | \$15.99   | Canada Computers - (TL-PB5200)    |
 | Solder Kit                 | 1            | \~\$40.00 | Humber                            |
 | Soldering Iron             | 1            | \~\$20.00 | Humber                            |
 | Power Cables/Connectors    | 1            | included  | Humber/Amazon                     |
 
-Again, these are just the parts and prices for the things qw bought. Prices may
-change over time, but our total comes to around \$350.
+Again, these are just the parts and prices for the things we bought. Prices may
+change over time, but our total comes to around \$370.
 
 ### 2.5.3 Time Commitment
 
@@ -809,13 +810,45 @@ everything together and have most of the core components working.
 3. Conclusions
 ==============
 
+This project of an affordable, portable breathalyzer has been created in hopes
+to lower the rate of drinking and driving. This breathalyzer can determine the
+users blood alcohol content (BAC) as well as their beats per minute (BPM), so
+that users can determine beforehand if they are able to drive home safely. When
+the alcohol or heart rate test is taken, data is retrieved from the sensors and
+stored on a database. In addition, the data is also displayed on an android
+application along with other information about when the test was taken.
+Furthermore, the android application will aid the user by allowing them to
+determine if it is safe to drive and will be given options such as calling a
+friend, calling a taxi or seeking the nearest hotels in the area. The final
+version of our project meets all the requirements that needed to be
+accomplished.
+
  
 
 4. Recommendations
 ==================
 
- 
-=
+Currently, the hardware that we created can be better when talking about
+recommendations. If this project were to be reproduced multiple times and made
+perfect, a few changes and touch ups would not be a bad idea. A smaller more
+compact case can be created to make the project even smaller and portable when
+being looked at in final stages. That being said, instead of having a bunch of
+wires inside the case, you can create another circuit board which helps reduce
+the wiring and makes the project look a little more neat. This also allows an
+idea of neatness and the aspect of "plug-and-play". Although the sensors were
+pretty cheap, you would be able to order and buy the sensors in bulk so that you
+would be saving a fair amount of money by receiving a discount per sensor, and a
+cut in shipping cost. Also, since the program was created to fit the specific
+needs of our project, it can be further refined and customized to fit the end
+user's needs. For example, you can make the database not accept values that are
+too low, or too high and can tweak it to make sure it's only reading what you
+want it to read. The portable charger does not need to be the same and if you
+want to use a cheaper one you can. The only restriction is that it must output
+5V/2.4A so that it provides enough power to the raspberry pi and is safe enough
+to keep it running. Lastly, more things can be added to make sure the parts
+inside the case do not move around a lot. This can be fixed by fastening the
+sensors with screws instead of tape. Once the project meets your standards then
+you can go about improving and making it even better.
 
 5. References
 =============
