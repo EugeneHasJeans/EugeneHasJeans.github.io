@@ -1,7 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer  \nBy: Designated Drivers  \nEugene Oliver  \nRyan Do  \nAdriene Almacen  \nMarch 28, 2017"
+title: "Lifelines Breathalyzer    \nBy: Designated Drivers    \nEugene Oliver    \nRyan Do    \nAdriene Almacen    \nMarch 28, 2017\\pagebreak"
 ---
 
  
@@ -847,6 +847,8 @@ to keep it running. Lastly, more things can be added to make sure the parts
 inside the case do not move around a lot. This can be fixed by fastening the
 sensors with screws instead of tape. Once the project meets your standards then
 you can go about improving and making it even better.
+
+ 
 
 5. References
 =============
