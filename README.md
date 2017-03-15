@@ -1,7 +1,10 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer\nBy: Designated Drivers\n (Eugene Oliver, Ryan Do, Adriene Almacen)\n March 28th, 2017"
+title: "Lifelines Breathalyzer  
+By: Designated Drivers  
+(Eugene Oliver, Ryan Do, Adriene Almacen)  
+March 28th, 2017"
 ---
 
  
