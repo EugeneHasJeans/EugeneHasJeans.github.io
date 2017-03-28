@@ -4,6 +4,15 @@ bibliography: RPiCitations.bib
 title: Lifelines Breathalyzer
 author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
+
+
+
+
+
+
+
+
+
 March 28th, 2017
 
 \pagebreak
@@ -32,6 +41,8 @@ testing the hardware and software for bugs and issues are discussed by the three
 of us and worked on all together. Before any changes were done on the project, a
 group consensus had to be made. All work that was used for guidance and help has
 been acknowledged and cited in the reference area of this report.
+
+\pagebreak
 
 Approved Proposal
 =================
@@ -242,7 +253,7 @@ Furthermore, the android application will aid the user by allowing them to
 determine if it is safe to drive and will be given options such as calling a
 friend, calling a taxi or seeking the nearest hotels in the area.
 
- 
+\pagebreak
 
 Table of Contents
 =================
@@ -328,6 +339,8 @@ Recommendations](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#4-re
 [5.
 References](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-references)
 
+\pagebreak
+
 Illustrations and Diagrams
 ==========================
 
@@ -338,6 +351,8 @@ how the Lifelines: Breathalyzer works.
 Figure 2: Board layout for custom PCB This figure is a schematic for the custom
 PCB we used. This shows the layout of the PCB to make sure everything looks
 okay.
+
+\pagebreak
 
 1. Introduction
 ===============
@@ -367,6 +382,8 @@ micro-usb connection. A unique approach in this project was seeing the best way
 to calibrate both sensors. We realized that the heart rate sensor works best
 when there is a black surface underneath it. The alcohol sensor has a
 potentiometer that can adjust the sensitivity of the readings.
+
+\pagebreak
 
 2. System Requirements Specifications
 =====================================
@@ -1456,6 +1473,8 @@ Thanks,
 
 Ryan Do
 
+\pagebreak
+
 3. Conclusions
 ==============
 
@@ -1499,6 +1518,7 @@ inside the case do not move around a lot. This can be fixed by fastening the
 sensors with screws instead of tape. Once the project meets your standards then
 you can go about improving and making it even better.
 
+\pagebreak
 
 5. References
 =============
