@@ -331,10 +331,12 @@ Illustrations and Diagrams
 ==========================
 
 Figure 1: System Diagram for Lifelines Breathalyzer  
-This figure is a system diagram of the project, describing general structure of how the Lifelines: Breathalyzer works.
+This figure is a system diagram of the project, describing general structure of
+how the Lifelines: Breathalyzer works.
 
-Figure 2: Board layout for custom PCB
-This figure is a schematic for the custom PCB we used. This shows the layout of the PCB to make sure everything looks okay.
+Figure 2: Board layout for custom PCB This figure is a schematic for the custom
+PCB we used. This shows the layout of the PCB to make sure everything looks
+okay.
 
 1. Introduction
 ===============
