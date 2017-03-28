@@ -629,7 +629,7 @@ they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
 properly test it to make sure it works. Below is an image of the board file.
 
- 
+![Board](/images/Board.pdf)
 
 ### Assembling and Power Up
 
