@@ -634,7 +634,7 @@ properly test it to make sure it works. Below is an image of the board file.
 
 ![Schematic For Custom PCB](images/Board.png)
 
- 
+\pagebreak
 
 ### Assembling and Power Up
 
