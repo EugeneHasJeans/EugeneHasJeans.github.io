@@ -1,13 +1,14 @@
 ---
 csl: apa.csl
-date: "March 28, 2017"
 bibliography: RPiCitations.bib
 title: Lifelines Breathalyzer
 author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
+March 28th, 2017
 
 \pagebreak
-\linespread{2}
+\usepackage{setspace}
+\begin{doublespace}
 
 Lifelines: Portable Breathalyzer Project
 ========================================
@@ -1498,7 +1499,7 @@ inside the case do not move around a lot. This can be fixed by fastening the
 sensors with screws instead of tape. Once the project meets your standards then
 you can go about improving and making it even better.
 
- 
+\end{doublespace} 
 
 5. References
 =============
