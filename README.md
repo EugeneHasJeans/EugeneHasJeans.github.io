@@ -7,6 +7,7 @@ author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
 
 \pagebreak
+\linespread{2}
 
 Lifelines: Portable Breathalyzer Project
 ========================================
