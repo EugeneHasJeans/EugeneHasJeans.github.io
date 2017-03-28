@@ -593,7 +593,9 @@ about connecting the parts together and powering it up. Lets get started!
 
  
 
-##### Raspberry Pi 
+##### Raspberry Pi  
+
+ 
 
 These steps might vary if you get different parts, my Raspberry Pi starter kit
 included a lot of things to make the process a lot easier.Once you receive your
@@ -610,7 +612,9 @@ properly.
 
  
 
-#### PCB/Soldering
+#### PCB/Soldering  
+
+ 
 
 Next thing to start working on would be the PCB. The PCB provided to us by the
 Humber Prototype Lab is what we used to hold majority of our project. First
@@ -630,7 +634,9 @@ properly test it to make sure it works. Below is an image of the board file.
 
  
 
-##### Assembling and Power Up
+##### Assembling and Power Up  
+
+ 
 
 When the Raspberry Pi is setup, and the PCB is finished and soldered you can now
 set up the rest of the project. Get the Modular Sense Hat and connect it
@@ -694,7 +700,9 @@ ran by putting it in a file named *lifelines.py*, and can be ran by typing
 
  
 
-##### Connecting To The Database
+##### Connecting To The Database  
+
+ 
 
 At first, we could not decide on how to connect the mobile application and the
 hardware to a database. We were originally going to use an SQL database that was
