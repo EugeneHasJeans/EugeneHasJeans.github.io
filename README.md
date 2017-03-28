@@ -1,10 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer  
-By: Designated Drivers  
-(Eugene Oliver, Ryan Do, Adriene Almacen)  
-March 28th, 2017"
+title: "Lifelines Breathalyzer By: Designated Drivers (Eugene Oliver, Ryan Do, Adriene Almacen) March 28th, 2017"
 ---
 
  
@@ -314,8 +311,10 @@ Instructions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#25-buil
 
 2.5.5 Testing
 
-[2.6 Progress
+[2.6 Project Schedule & Progress
 Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#26-progress-reports)
+
+2.7 Software Project Reports
 
 [3.
 Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusions)
@@ -672,8 +671,8 @@ ran by putting it in a file named *lifelines.py*, and can be ran by typing
             alcohol = read_ain(2)*0.001     #read the alcohol sensor on pin 2
             heartrate = read_ain(1)         #read the heartrate sensor on pin 1
 
-            print "-------------------------\n"
-            print("Alcohol Sensor: {0:.3f}%".format(alcohol))   #print alcohol reading
+            print "-------------------------\n" #print alcohol reading
+            print("Alcohol Sensor: {0:.3f}%".format(alcohol))   
             
             #turn on the LED when alcohol level is above 0.08%
             if(alcohol>0.08):
@@ -683,7 +682,8 @@ ran by putting it in a file named *lifelines.py*, and can be ran by typing
             GPIO.output(11,1)
             GPIO.output(12,0)
             
-            print("Heart Rate Sensor: {0:.0f} BPM\n".format(heartrate))     #print heartrate reading
+            #print heartrate reading
+            print("Heart Rate Sensor: {0:.0f} BPM\n".format(heartrate))
             time.sleep(1)#update every 1 second
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -728,8 +728,247 @@ where you want it! That's it!
 
  
 
-2.6 Progress Reports
---------------------
+2.6 Schedule & Progress Reports
+-------------------------------
+
+Phase 1
+
+-   Project Selection & Individual Proposal Due Tue. 9/6/16 - Tue. 9/13/16
+
+-   Individual Project Schedule Tue. 9/16/16 - Tue. 9/20/16
+
+-   Status Meeting Tue. 9/20/20
+
+-   Individual Budget Tue. 9/14/16 - Tue. 9/27/16
+
+-   Individual Progress Report (Components Acquired Milestone) Wed. 9/28/16 -
+    Tue. 10/11/16
+
+-   Status Meeting II Tue. 10/4/16
+
+-   Individual Progress Report II (Mechanical Assembly Milestone) Wed. 10/5/16 -
+    Tue. 10/11/16
+
+-   Individual PCB due (Power Up Milestone) Wed. 10/12/16 - Tue. 10/18/16
+
+-   Status Meeting III Tue. 10/18/16
+
+-   Group Placard Thu. 10/20/16 - Tue. 10/25/16
+
+-   Individual Progress Report III Sat 10/29/16 - Tue. 11/01/16
+
+-   Hardware Demonstration (November 12th, 2016)
+
+-   Peer grading of demonstration Thu. 10/27/16 - Tue. 11/8/16
+
+-   Individual Build Video Wed. 10/12/16 - Tue. 11/15/16
+
+-   Status Meeting IV Tue. 11/15/16
+
+-   Individual Progress Report IV Wed. 11/16/16 - Tue. 11/22/16
+
+-   Individual Presentations, Individual PowerPoint Thu. 11/10/16 - Tue.
+    12/06/16
+
+-   Individual Video Script, Final Filming and Demonstration Mon. 11/21/16 -
+    Tue. 12/13/16
+
+Phase 2
+
+-   Scheduling and Group Meetings Mon. 1/09/17
+
+-   Group Project Status Update Fri. 1/13/17 - Mon. 1/16/17
+
+-   App, Web, and Database SRS Mon. 1/09/17 - Mon. 1/23/17
+
+-   Group Project Status Update II Fri. 1/27/17 - Mon. 1/30/17
+
+-   Group Project Status Update III Thu. 2/2/17 - Mon. 2/6/17
+
+-   App, Web, and Database Independent Demonstration Tue. 2/14/17
+
+-   Group Poject Status Update IV Sat. 2/25/17 - Mon 2/27/17
+
+-   Group Integration Tue. 2/14/17 - Fri. 2/17/17
+
+-   Group Project Status Update V Mon. 3/6/17 - Mon. 3/13/17
+
+-   Group Troubleshooting Wed. 3/1/17 - Mon. 3/20/17
+
+-   Group Project Status Update VI Fri. 3/24/17 - Mon. 3/27/17
+
+-   Project Demonstration at Open House (April 8th, 2017)
+
+-   Group Presentations Mon. 4/10/17
+
+-   Group Final Report Sat. 3/18/17 - Mon. 4/17/17
+
+-   Group Video Script, Final Filming and Demonstration Sat. 3/18/17 - Mon.
+    4/24/17
+
+As seen in the project schedule above, everything is pretty layed out. Planning
+ahead was crucial to get this project organized and properly done. The project
+would not have been done as well as it did if we did not follow this schedule as
+much as possible. Having all these days written down so we can follow them
+allowed us as a group see what needs to be done, and when it needs to be done by
+so we are able to see when we have extra time to work on something that will
+take a lot more work. For example, in phase one We had set our schedule so that
+we start our build video a month before it was actually due. Knowing that this
+task would take a long time we allocated more time to it, and was able to work
+on other tasks while working on the build log slowly and not all at once.
+
+Although the schedule might not have been followed to the exact dates, we
+believe that the main benefit from this schedule is for time management and
+making sure you're able to follow tasks and schedules set. Even though you might
+not be able to do things exactly and always be on time, it is more beneficial if
+you're more disciplined enough to fall behind, but make up for it and catch up
+when you get knocked down. This schedule that we had to make also helps us in
+the long term and towards the end where we can see how long it took us to do
+some tasks and see how we could improve our time management in the past. A
+schedule was also made in Software Project class where we had to make the mobile
+application. Again, this helped us prioritize our application when we needed to,
+but also work on labs and assignments from that class at the same time.
+
+#### Progress Report [11/10/2016] - Sent by Eugene Oliver
+
+As of today there has been several changes to the initial plan of the hardware
+idea for Lifelines: the Portable Breathalyzer. After meeting with Kristian Medri
+about our proposal, we realized that a few things needed to be added and
+changed. Instead of going with just one sensor that looks at your alcohol level,
+my group decided to also add a heart rate sensor that will monitor your heart
+beat. We also realized that we needed to include a collaboration. We now are
+working in collaboration with the HRT (Hospitality, Recreation and Tourism)
+department here at Humber college. We will be looking at all the sensors they
+have at their center and we will also be able to ask them any questions that we
+have uncertainties with.
+
+In terms of meeting the objectives based on the approval of our project proposal
+I am in pretty good standings. All the materials and parts needed for the
+project have either arrived in my possession or are currently on their way. To
+avoid any time delays and full lab problems, I came to school during our reading
+break (Thursday Oct 6th) to work on finishing the PCB and solder all the things
+together.
+
+One problem that came up is with one our parts that are coming in. Our 7-segment
+display that we planned to include to display the readings will be coming in a
+month, which will impact the budget building time. To fix this Kristian Medri
+suggested to talk to Vlad and Kelly to see what our other options are while
+waiting for these parts. In terms of finances, we were able to find cheap
+resources to include in our project since we will not be receiving any project
+funds. Either than the actual Raspberry Pi kit that we had to purchase and parts
+kit we bought in first year, everything else was relatively cheap. My total
+budget including everything I bought in the past came up to around \$360, but
+removing the things I already had, I just needed to spend a total of \$63.69.
+
+In terms of moving forward, my group will be able to commence our project
+building plan. When looking at my designed GANTT chart, I can see that if I am
+able to follow my schedule I will be able to complete it on time. My next step
+in this project is to go about the procedure to test the PCB board and make sure
+nothing is wrong with it. Lastly, as time goes on I plan to continue documenting
+any work that has been done, package openings, and assembly that will eventually
+make up my build video.
+
+#### Progress Report [08/11/2016] - Sent by Eugene Oliver
+
+As of today there has been some updates and steps moving forward with the
+Lifelines: Breathalyzer hardware project. All parts that I believe are needed
+for the project have come in, so all building can be done and started. With the
+open house coming up this Saturday I plan to have a lot of work on my hands to
+make sure that everything I intend to show is working successfully.
+
+In terms of meeting previous objectives and guidelines prior to today,
+everything has been working well and in time. Although I was given some issues
+when booting up and getting the PCB working with the sensors at first, I was
+able to consult Vlad and Kelly to see what the problem was when seeing the data
+on the screen. It turns out that one of my connections were shorted out because
+of a small strip of solder which connected two of my GPIO pins. This fixed the
+error of my sensors not being detected with the “i2cdetect –y 1” command. After
+fixing this problem the light and temperature sensors were giving proper
+readings and the LED blink test also worked as well.
+
+The following weeks after the power up some projects were also due. I created
+the Placard for the breathalyzer which gives a quick and short description about
+the project and what we plan to do and use it for. It also highlights the main
+specifications and the names of the people who are working on this project with
+me. Lastly, I created a quick 30-second video which shows information on some of
+the things that were done in the previous weeks. It shows the parts that have
+came and arrived in the mail, it also demonstrates a quick light test, then ends
+off with proof that the sensors are booting up on the PCB while connected to the
+Raspberry Pi.
+
+In terms of moving forward, as stated before, I plan to get as much ready for
+the open house coming up. I’ve gotten data from my sensors but only on an analog
+reading which just shows 0’s and 1’s, my next step would be to get those values
+to actually show full numeric values so it’s more useful. Lastly, as time goes
+on I need to continue preparing for my individual build instructions and final
+video filming in the last few weeks.
+
+#### Progress Report [15/11/2016] - Sent by Eugene Oliver
+
+As of today there has there has been signs of progression for the Lifelines:
+Breathalyzer. This past Saturday was the Humber Open House where we presented
+our projects so far and got feedback and some reactions from families and
+possible future Humber students. I also got to see other projects of my
+classmates and see where they are currently at with their projects as well. I
+received helpful feedback from other groups and Kristian that I will talk about
+in a future report. A lot of guests that came to the open house were happy to
+see that the project was working and that the sensors were cool to interact
+with.
+
+So far, everything has been going smoothly. At open house I was able to
+demonstrate what I planned to show, and that was calibrating my heartbeat sensor
+and MQ-3 alcoholic gas sensor and getting successful readings from both of them.
+I also didn't need to bring a monitor and use the HDMI-to-VGA converter because
+I was able to display my raspberry pi onto my laptop screen instead. This saves
+me a lot of hassle by not needing to pull wires out of a computer monitor in
+classes or at home.
+
+One problem that I encountered this past week was on how I was going to
+demonstrate getting readings from my alcohol sensor, considering that I wouldn't
+need to use an intoxicated person. I solved this problem by just using a rubbing
+alcohol bottle, but this could've been further fixed by using just a hand
+sanitizer bottle. By using a hand sanitizer bottle instead, it wouldn't be a big
+problem if a spill were to happen. Another problem I encountered was when I was
+first trying to get readings from the sensors. As stated in my last report I was
+only getting 0's and 1's and that was fixed by using the ADC in one of the
+sensors that was given with our PCB kit from the earlier weeks.
+
+In terms of moving forward, I plan to create an acrylic case that will hold the
+project. I also plan to further calibrate the sensors to get more accurate
+readings, and try to get a graph that displays the data rather than just
+numbers. All parts have been received so I will not need to put anymore money
+into the project which ends the finances at around \$63.
+
+#### Progress Report [22/11/2016] - Sent by Eugene Oliver
+
+There has been signs of progression in my project Lifelines: Breathalyzer. In
+the next coming weeks things will need to be done in order for it to be finished
+by week 15. Next week will be my presentation, so I need to make sure everything
+that needs to be done next week will be done.
+
+Everything is still going smoothly and according to schedule. Last week I was
+starting to think about my case that I learned is mandatory for the
+presentation. I also need to get the LED working on the PCB board and somehow
+use it to incorporate it with the rest of my project. My plan right now is to
+get the LED working, corresponding to what the sensors are reading. So for
+example, I will make the LED be red if one of the values is too low, and green
+if it is a proper reading.
+
+One problem that I encountered this past week was trying to figure out how to
+make a case. After drawing out my ideas on a paper I was then stumped on what to
+use to actually print my design. I figured out how to fix this problem by asking
+classmates who already have some of their case printed out, and I confirmed this
+was right by going to the prototype lab and asking Vlad/Kelly. Another problem I
+had was getting the LED on the PCB to blink using python. Before, we used the
+blink test using the code given to us, using C. I was able to get some sample
+code working by researching online and working with some friends last week and
+making sure it works. Now i just need to incorporate it into my own code.
+
+In terms of moving forward, I plan to just stay on track to have everything done
+by the final week of school. As time is closing in on me, I'm starting to look
+back and see how well I followed my schedule and I'm proud of how far my project
+has come along. As stated in my last progress report, there were no additional
+finances to be added, so there are no changes for that.
 
 #### Progress Report [30/01/2017] - Sent by Adriene Almacen
 
@@ -808,7 +1047,333 @@ portable breathalyzer with our mobile app along with working on the technical
 report. We hope that by the open house, we are able to fully integrate
 everything together and have most of the core components working.
 
+#### Progress Report [07/03/2017] - Sent by Adriene Almacen
+
+Dear Kristian,
+
+As of today, we are currently on track in terms with our project schedule. We
+have recently merged a mixture of our Build instructions onto our Technical
+Report body. We are hoping to meet with a representative of Humber HRT –School
+of Hospitality, Recreation and Tourism during our presentation to discuss our
+project and hopefully be able to collaborate with them.
+
+In the past week, Eugene has worked on integrating the hardware into our new
+compact acrylic case by creating the proper dimensions for the case so that it
+is able to house the hardware as well as being a moderate size for it to be
+portable. In addition, Eugene plans on integrating an executable file that runs
+our breathalyzer program so that every time our breathalyzer turns on the script
+is always running.
+
+Ryan has been working on integrating the hardware and mobile application
+together. He has done this by gathering the data from the Raspberry Pi, the data
+is then transmitted through wifi onto the database. Secondly, he is currently in
+progress of being able to transfer data from the database onto the mobile
+application using a JSON database from Firebase. The main data that is being
+stored onto the database is the user’s info, Blood Alcohol Content (BAC) and
+Beats per minute (BPM) as well as the time and date of when the test was taken.
+
+I have been working on the integrating a new layout for our application, with
+the feedback received from last semester. By changing the main screen to a
+tabbed style layout, it eliminates a majority of the buttons in our first design
+as well as having a screen with three main functions instead of having a page
+for each function. Furthermore, the login and past records function were moved
+to the toolbar for easy accessibility. The goal is to make our application more
+user friendly by having a simple, easy to read design.
+
+In the next following weeks, we plan to continue working and finishing up our
+portable breathalyzer, mobile application and connecting it all to our database.
+Next week, we hope to finish a beta project with a majority of the components
+working to show at open house along with our meeting with a representative of
+Humber HRT.
+
+Sincerely,
+
+Adriene Almacen
+
+#### Progress Report [21/03/2017] - Sent by Ryan Do
+
+Dear Kristian,
+
+As of today, we are currently on track with our project in terms of the project
+schedule. We have gone through and completed the OACETT basic requirements
+checklist while noting which areas we still need to improve on and complete.
+Last week, we had the opportunity to represent the Computer Engineering
+Technology program along with the Active House project for National Engineering
+Month. We only had a couple of people come in and talk to us about our projects,
+but they have provided us with their ideas and have asked good questions. We
+plan to have a tour of the labs of Humber HRT – School of Hospitality,
+Recreation and Tourism this week to get a glimpse of the equipment that are used
+to measure alcohol and heart rate in a lab.
+
+During the course of the project, Eugene had some problems on the calibration of
+the alcohol gas sensor. The potentiometer that controls how sensitive the sensor
+is to gas particles, changes a lot when turned a little. We have decided to glue
+it so that it does not turn accidentally while working on the sensor. Another
+problem was getting the correct dimensions for the new acrylic case with holes
+for the standoffs for the Raspberry Pi. He went online to search for dimensions
+for the Raspberry Pi including the holes for the standoffs and measured it to
+fit the case.
+
+In regards to the mobile application, Adriene had some problems getting the tab
+layout merged with our previous layout. Searching online, he found a guide
+showing how to incorporate a tab layout into the mobile application and is in
+the process of implementing it. Another problem Adriene came across was the
+permissions for accessing location and contacts. Moving from Android 5.1 (API
+22) to Android 6.0 (API 23), google has changed the way that permissions are
+granted. In API 22, you would ask for permissions at the time when you install
+the app, but moving to API 23, you have to ask for permissions on the fly.
+Searching on the internet revealed the process for the permissions and it has
+been implemented into the app.
+
+With the database and the python script, a problem that I had was how I was
+going to get the data from the Raspberry Pi and have it show up on the mobile
+application. I decided to use “Pyrebase”, a python wrapper for the Firebase API,
+with my python script to push the data from the Raspberry Pi straight to the
+Firebase Database. The mobile application can then grab the data from the
+database and display it. Another problem I had was to detect when a test started
+and when it stopped. For the alcohol reading, I checked if the current value is
+higher than the previous value and set that as the max, and looped until the
+reading did not go any higher. For the heart rate, when it reads a very high
+value, for example over 200BPM, the heart rate sensor starts reading values
+every second for 5 seconds and then the average set as the heart rate.
+
+Financially, we have not added anything to the project since the addition of the
+portable battery pack and the new acrylic case. Our total for this project,
+which includes the Raspberry Pi, the sensors, the PCB, the external battery
+pack, and the parts toolbox, is around \$360. In the coming weeks, we hope to be
+finishing the project and getting it ready for showcase at the Humber College
+Spring Open House on April 8th, 2017.
+
+Sincerely,
+
+Ryan Do
+
  
+
+2.7 Software Project Reports
+----------------------------
+
+### Fall 2016 Software Application Proposal for Lifelines: Breathalyzer
+
+The following report is a proposal we had to submit to get permission to create
+the application that would be paired with our hardware project to create our
+systems project. This proposal had to include what problems our project were
+going to fix and how our application would help fix this problem. It also
+highlights the tasks each member of the group had to do, and we had to make sure
+everything was split as equally as possible.
+
+Report: Software Proposal
+
+Group Name: Designated Drivers
+
+Project Name: Lifelines: A Breathalyzer Application
+
+Team Members: Eugene Oliver (N01038196) Adriene Almacen (N01040646) Ryan Do
+(N01044391)
+
+For our Fall 2016 Software project we are asking for approval to create an app
+that will allow users to find out their alcohol level and their heart rate.
+Depending on the reading the user gets, it will provide them functionality to do
+a certain amount of tasks. Our application will provide functionalities to call
+for help, either a friend or taxi and even see hotels in the area instead of
+putting themselves behind the wheel creating danger. This project will be
+closely related to the hardware project we are working on in CENG 317, which is
+a portable breathalyzer.
+
+The mobile application will fix the problem of the large amount and frequency of
+drunk drivers that endangers their lives and the lives of others. Using this
+app, people can realize how much alcohol is actually in their system and from
+that, can create a solution for their safety instead of danger. Every year there
+is a call for help for people to stop drinking and driving, but yet every year
+there are accidents that always lead to a common problem of alcohol consumption
+behind the wheel. The largest age group for teens that drive drunk is 19 years
+of age, this age group is also a large target area for mobile application use. I
+believe that the more people who use this project will lower the rate of this
+problem and bring us one step closer to a solution for the real world problem of
+drinking and driving.
+
+In terms of group member tasks, we plan to all work together and help each other
+in any way we can, whenever we can to achieve our final goal of a fully
+functional mobile app. Eugene will be mainly working with the UI and design.
+Adriene will also be looking at the design, along with working with application
+implementation to make sure there aren’t any issues adding features together.
+Lastly, Ryan will be working with integration of external data sources along
+with working with issues and problems with accessing the remote server and
+database, he will also be scrum master.
+
+Together as a group our main end goal is to create a complete mobile app
+throughout the next few months. Once completing both the hardware aspect along
+with the software/mobile app we plan to combine the two together to create a
+fully functional breathalyzer which will hopefully impact lives of users in a
+positive way. We hope our idea interests you and we look forward to
+communicating with you throughout the year.
+
+Thanks,
+
+Eugene, Ryan and Adriene
+
+ 
+
+### Distribution, Progress and Remaining Work After First Milestone
+
+The following report is what we had to create together as a group and hand in
+when we reached the first milestone of the class. Since this was only the first
+milestone, not a lot of work was done on the application itself since we were
+still just trying it out and getting used to the functionalities since this was
+the first time we ever got experience with application creations. This report
+also explains what we plan on doing in terms of splitting up the tasks to make
+sure we are all on the same page on who is doing what. Lastly, this report talks
+about what our goal is when finalizing the application and what still needed to
+be done at this point for the future.
+
+Report: Distribution, Progress and Remaining work (First Milestone)
+
+Group Name: Designated Drivers
+
+Project Name: Lifelines: A Breathalyzer Application
+
+Team Members: Eugene Oliver (N01038196) Adriene Almacen (N01040646) Ryan Do
+(N01044391)
+
+For this milestone we managed to split up the work equally. Eugene created the
+GANTT chart which highlights the planned date ranges for the project completion.
+In this chart it also highlights important dates and meetings. Eugene also
+worked on the architecture design which makes it a little bit more clear how the
+app will work. Adriene worked on illustrating the design of how our application
+will look. He also highlights the tools that will be used in the project, what
+we will be implementing and what will be required when using the app. Lastly,
+our scrum master, Ryan worked on creating the minimum of two sets of image files
+for different resolutions of devices. He also worked on getting git access with
+android studio and successfully fetched and pushed code to the repo, he will
+also be demonstrating how to access it.
+
+In terms of group member tasks, we plan to all work together and help each other
+in any way we can as discussed in our proposal. Eugene will be mainly working
+with the UI and design. Adriene will also be looking at the design, along with
+working with application implementation to make sure there aren’t any issues
+adding features together. Lastly, Ryan will be working with integration of
+external data sources along with working with issues and problems with accessing
+the remote server and database, he will also be scrum master. As a whole we will
+constantly be debugging and troubleshooting, but meetings have been assigned to
+make sure we are always on the same page.
+
+Together as a group our main end goal is to create a complete mobile app
+throughout the next few months. So far we have successfully thought of the idea,
+planned the design and implementation of features and are confident with our
+plans moving forward. After multiple planning stages we feel like we can start
+creating the app and push towards our beta release. If we are able to follow
+along with our project plan schedule and not run into many problems or issues,
+we feel like this will be a very successful application at the end when working
+with GPS, Bluetooth, Databases and other features along the way.
+
+Designated Drivers,
+
+Eugene, Ryan and Adriene
+
+ 
+
+### Individual Beta/Final Application Milestone Submission
+
+The following reports are what we needed to hand in along with our application
+during the beta/final application milestone. In the first two reports, which
+were submitted by Eugene and Adriene at beta just highlighted what has been done
+in the time leading up to that day, what was done by each member, and what still
+needs to be done to the application. Ryan's report highlights what was done for
+the final application submission. At this point our application was done and
+Ryan's report is what he handed in along with our finalized application along
+with other technical documents.
+
+ 
+
+#### Individual Beta Submission (Eugene Oliver)
+
+Group Name: Designated Drivers
+
+Project Name: Lifelines: A Breathalyzer Application
+
+For this milestone we first came together as a group and talked about what would
+be best for each of us to do knowing that the best thing would be to split it up
+equally. We came to the conclusion that if someone were to do a hard part, they
+wouldn’t need to do a lot in terms of quantity.
+
+In terms of work progress as a group, we’re in pretty good standings. We seemed
+to get most of the functionality of our app pretty much working. We had some
+bugs at the beginning but working as a team we were able to fix all the issues
+and get the app back on working track with no errors. We were able to get data
+from a database and connect to a server which allows us to register and login
+getting data for each user that registers on our app. We also changed the
+appearance of our application to make it look a lot nicer than before. Lastly we
+added functionality to our buttons which does unique things.
+
+For myself I was assigned the task to get the parts of the app I was assigned to
+do this time was getting the google maps intent working when selecting finding
+hotels in the area. I also needed to get the runtime permissions working for
+CALL\_PHONE for API 23+ to make sure that the permissions are granted if a phone
+call needs to be made. Lastly, I included some taxi’s to call when the Call a
+Taxi button is pressed. Along with the parts of the app, I also created the test
+plans which helped us as a group make sure that the application was running
+smoothly and doing what we wanted it to do.
+
+My two group members, Adriene and Ryan did an amazing job with their
+contribution. Since we got majority of what we needed to do, I couldn’t ask for
+a better job from the two of them. They did their part and I did my part which
+is why I feel like we were pretty successful as a group getting this done in
+such a stressful time during the school year. Also, we had good communication
+and we were able to assign the parts smoothly and help each other, so I feel
+like our group chemistry is definitely growing.
+
+Thanks,
+
+Eugene Oliver
+
+ 
+
+#### Individual Beta Submission (Adriene Almacen)
+
+Group Name: Designated Drivers
+
+Project Name: Lifelines: A Breathalyzer Application
+
+My Contribution for the app was to have the user enter in the users name and
+phone number and save it into the phones contact list.
+
+In the near future I plan on adding my hardware project to connect with my app.
+Where I will be able to get appropriate readings and display them on my app and
+store it on the data base. As for my teammates, Ryan was the scrum master and
+was responsible for handing everything from work distribution to task
+management. He was also responsible for Connecting to a database through a
+login. He also worked with storing data in the database. Eugene was responsible
+for fixing the layouts, adding functionality for the taxi and hotel pages, and
+adding layouts for landscape and tablet landscape.
+
+We managed to complete a working app in time for the milestone.
+
+Thanks,
+
+Adriene Almacen
+
+ 
+
+#### Individual Final Submission (Ryan Do)
+
+Group Name: Designated Drivers
+
+Project Name: Lifelines: A Breathalyzer Application
+
+For the final app, my contribution was to get the database running and having
+the signup/login pages working with the user able to use the Remember Me option.
+Originally, I was planning to use a local SQLite database for this but then I
+found out about Google’s Firebase with their login and real-time database
+services. I have successfully registered users and have gotten their data go to
+the database and get their hardcoded past results from the database to show in
+an activity. My team members Eugene and Adriene did a great job in getting their
+assigned parts finished and pushed to their GitHub branch. We had great
+communication through chat and VoIP and we asked each other if we had any
+questions about the app or did not know something.
+
+Thanks,
+
+Ryan Do
 
 3. Conclusions
 ==============
