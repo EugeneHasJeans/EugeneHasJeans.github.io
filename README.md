@@ -1,7 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer By: Designated Drivers (Eugene Oliver, Ryan Do, Adriene Almacen) March 28th, 2017"
+title: "March 28th, 2017"
 ---
 
  
@@ -314,7 +314,8 @@ Instructions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#25-buil
 [2.6 Project Schedule & Progress
 Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#26-progress-reports)
 
-2.7 Software Project Reports
+[2.7 Software Project
+Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#27-software-project-reports)
 
 [3.
 Conclusions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#3-conclusions)
@@ -868,8 +869,7 @@ able to follow my schedule I will be able to complete it on time. My next step
 in this project is to go about the procedure to test the PCB board and make sure
 nothing is wrong with it. Lastly, as time goes on I plan to continue documenting
 any work that has been done, package openings, and assembly that will eventually
-make up my build video.  
-
+make up my build video.
 
 #### Progress Report [08/11/2016] - Sent by Eugene Oliver
 
@@ -904,8 +904,7 @@ the open house coming up. I’ve gotten data from my sensors but only on an anal
 reading which just shows 0’s and 1’s, my next step would be to get those values
 to actually show full numeric values so it’s more useful. Lastly, as time goes
 on I need to continue preparing for my individual build instructions and final
-video filming in the last few weeks.  
-
+video filming in the last few weeks.
 
 #### Progress Report [15/11/2016] - Sent by Eugene Oliver
 
@@ -941,8 +940,7 @@ In terms of moving forward, I plan to create an acrylic case that will hold the
 project. I also plan to further calibrate the sensors to get more accurate
 readings, and try to get a graph that displays the data rather than just
 numbers. All parts have been received so I will not need to put anymore money
-into the project which ends the finances at around \$63.  
-
+into the project which ends the finances at around \$63.
 
 #### Progress Report [22/11/2016] - Sent by Eugene Oliver
 
@@ -973,8 +971,7 @@ In terms of moving forward, I plan to just stay on track to have everything done
 by the final week of school. As time is closing in on me, I'm starting to look
 back and see how well I followed my schedule and I'm proud of how far my project
 has come along. As stated in my last progress report, there were no additional
-finances to be added, so there are no changes for that.  
-
+finances to be added, so there are no changes for that.
 
 #### Progress Report [30/01/2017] - Sent by Adriene Almacen
 
@@ -1008,8 +1005,7 @@ make the device portable. This portable battery will cost somewhere between
 In the future, we plan to keep working on the things required to get us to the
 end goal of our Lifelines: Breathalyzer, along with doing thing things to
 complete our technical report. We hope in the near future to be able to merge
-our database, mobile application and hardware into a complete working project.   
-
+our database, mobile application and hardware into a complete working project. 
 
 #### Progress Report [14/02/2017] - Sent by Ryan Do
 
@@ -1052,8 +1048,7 @@ will bring our total to around \$360.
 In the coming weeks, we plan to continue to work towards integrating our
 portable breathalyzer with our mobile app along with working on the technical
 report. We hope that by the open house, we are able to fully integrate
-everything together and have most of the core components working.  
-
+everything together and have most of the core components working.
 
 #### Progress Report [07/03/2017] - Sent by Adriene Almacen
 
