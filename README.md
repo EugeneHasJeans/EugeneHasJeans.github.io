@@ -4,19 +4,11 @@ bibliography: RPiCitations.bib
 title: Lifelines Breathalyzer
 author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
-
-
-
-
-
-
-
-
-
 March 28th, 2017
 
 \pagebreak
 \linespread{2}
+\fontfamily{cmss}
 \selectfont
 
 Lifelines: Portable Breathalyzer Project
