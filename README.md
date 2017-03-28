@@ -329,8 +329,8 @@ References](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#5-referen
 Illustrations and Diagrams
 ==========================
 
- 
-=
+Figure 1: System Diagram for Lifelines Breathalyzer  
+Figure 2: Board layout for custom PCB
 
 1. Introduction
 ===============
@@ -608,6 +608,8 @@ updates for your raspberry pi. "Startx" should be used to get into the desktop.
 Connect to the internet in whichever way is best, to make sure all is working
 properly.
 
+ 
+
 #### PCB/Soldering
 
 Next thing to start working on would be the PCB. The PCB provided to us by the
@@ -625,10 +627,6 @@ reference model they had at the lab, we also used the solder and soldering iron
 they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
 properly test it to make sure it works. Below is an image of the board file.
-
- 
-
-![Board](/images/Board.pdf)
 
  
 
@@ -693,6 +691,36 @@ ran by putting it in a file named *lifelines.py*, and can be ran by typing
             print("Heart Rate Sensor: {0:.0f} BPM\n".format(heartrate))
             time.sleep(1)#update every 1 second
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+
+##### Connecting To The Database
+
+At first, we could not decide on how to connect the mobile application and the
+hardware to a database. We were originally going to use an SQL database that was
+going to be ran off a server, but then we found out about Firebase. Firebase is
+a mobile and web application platform which includes a Realtime Database, which
+uses JSON instead of SQL to store data, and Firebase Auth, a service that is
+able to authenticate users locally to access specific data from the database. We
+decided to go with Firebase because it is free and we do not have to rent and
+set up a server.
+
+Connecting Firebase to the android application was easy because Firebase is a
+built in option in Android Studio. We had to set up the database rules so that
+the database read and writes from the correct user profile that is currently
+logged in to the app. There is an assistant in Android Studio that helps you
+with setting up Firebase and adding all of the correct dependencies and
+libraries in the build.gradle file. We followed the tutorial from the Firebase
+website to get authentication with email and password and on adding data to the
+database.
+
+Connecting the hardware to the database was a little bit more difficult. We used
+a python wrapper called Pyrebase that uses the REST API to access the data from
+the Firebase database. We had to install Pyrebase to the Raspberry Pi and then
+import and add the configuration for Firebase that you can find in the Firebase
+console into the python script. When it detects that a test finishes, it pushes
+the data to the database and then the mobile application can read and display it
+in the app.
 
  
 
