@@ -7,8 +7,8 @@ author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 March 28th, 2017
 
 \pagebreak
-\usepackage{setspace}
-\begin{doublespace}
+\linespread{2}
+\selectfont
 
 Lifelines: Portable Breathalyzer Project
 ========================================
@@ -1499,7 +1499,6 @@ inside the case do not move around a lot. This can be fixed by fastening the
 sensors with screws instead of tape. Once the project meets your standards then
 you can go about improving and making it even better.
 
-\end{doublespace} 
 
 5. References
 =============
