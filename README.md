@@ -594,7 +594,7 @@ about connecting the parts together and powering it up. Lets get started!
 
  
 
-#### Raspberry Pi
+### Raspberry Pi
 
 These steps might vary if you get different parts, my Raspberry Pi starter kit
 included a lot of things to make the process a lot easier.Once you receive your
@@ -611,7 +611,7 @@ properly.
 
  
 
-#### PCB/Soldering
+### PCB/Soldering
 
 Next thing to start working on would be the PCB. The PCB provided to us by the
 Humber Prototype Lab is what we used to hold majority of our project. First
@@ -631,7 +631,7 @@ properly test it to make sure it works. Below is an image of the board file.
 
  
 
-##### Assembling and Power Up
+### Assembling and Power Up
 
 When the Raspberry Pi is setup, and the PCB is finished and soldered you can now
 set up the rest of the project. Get the Modular Sense Hat and connect it
@@ -695,7 +695,7 @@ ran by putting it in a file named *lifelines.py*, and can be ran by typing
 
  
 
-##### Connecting To The Database  
+### Connecting To The Database  
 
  
 
@@ -729,7 +729,7 @@ in the app.
 
 ### 2.5.5 Testing
 
-#### Unit Testing
+### Unit Testing
 
 For unit testing there wasn't a lot of things to be done. The unit testing we
 did was the individual sensors. To test the MQ-3 sensor, we created a small and
@@ -745,7 +745,7 @@ should drop down to a number lower than 10, and then give you a more accurate
 reading of something between 70-80 after five or so seconds. If both of these
 work properly, well done!
 
-##### Production Testing
+### Production Testing
 
 Now that we're at the last step and we're sure that everything is working
 properly, all we had to do was combine the two codes from unit testing and run
@@ -869,7 +869,7 @@ but also work on labs and assignments from that class at the same time.
 
  
 
-#### Progress Report [11/10/2016] - Sent by Eugene Oliver
+### Progress Report [11/10/2016] - Sent by Eugene Oliver
 
 As of today there has been several changes to the initial plan of the hardware
 idea for Lifelines: the Portable Breathalyzer. After meeting with Kristian Medri
@@ -908,7 +908,7 @@ nothing is wrong with it. Lastly, as time goes on I plan to continue documenting
 any work that has been done, package openings, and assembly that will eventually
 make up my build video.
 
-#### Progress Report [08/11/2016] - Sent by Eugene Oliver
+### Progress Report [08/11/2016] - Sent by Eugene Oliver
 
 As of today there has been some updates and steps moving forward with the
 Lifelines: Breathalyzer hardware project. All parts that I believe are needed
@@ -943,7 +943,7 @@ to actually show full numeric values so it’s more useful. Lastly, as time goes
 on I need to continue preparing for my individual build instructions and final
 video filming in the last few weeks.
 
-#### Progress Report [15/11/2016] - Sent by Eugene Oliver
+### Progress Report [15/11/2016] - Sent by Eugene Oliver
 
 As of today there has there has been signs of progression for the Lifelines:
 Breathalyzer. This past Saturday was the Humber Open House where we presented
@@ -979,7 +979,7 @@ readings, and try to get a graph that displays the data rather than just
 numbers. All parts have been received so I will not need to put anymore money
 into the project which ends the finances at around \$63.
 
-#### Progress Report [22/11/2016] - Sent by Eugene Oliver
+### Progress Report [22/11/2016] - Sent by Eugene Oliver
 
 There has been signs of progression in my project Lifelines: Breathalyzer. In
 the next coming weeks things will need to be done in order for it to be finished
@@ -1010,7 +1010,7 @@ back and see how well I followed my schedule and I'm proud of how far my project
 has come along. As stated in my last progress report, there were no additional
 finances to be added, so there are no changes for that.
 
-#### Progress Report [30/01/2017] - Sent by Adriene Almacen
+### Progress Report [30/01/2017] - Sent by Adriene Almacen
 
 As of today we are currently on track with our project. Our project proposal
 with inline citation has been submitted as well as both the skeleton, and our
@@ -1044,7 +1044,7 @@ end goal of our Lifelines: Breathalyzer, along with doing thing things to
 complete our technical report. We hope in the near future to be able to merge
 our database, mobile application and hardware into a complete working project. 
 
-#### Progress Report [14/02/2017] - Sent by Ryan Do
+### Progress Report [14/02/2017] - Sent by Ryan Do
 
 As of today, we are currently on track with our project. We have added more to
 the structure of the Technical Report as well as the Abstract, the Introduction,
@@ -1087,7 +1087,7 @@ portable breathalyzer with our mobile app along with working on the technical
 report. We hope that by the open house, we are able to fully integrate
 everything together and have most of the core components working.
 
-#### Progress Report [07/03/2017] - Sent by Adriene Almacen
+### Progress Report [07/03/2017] - Sent by Adriene Almacen
 
 Dear Kristian,
 
@@ -1132,7 +1132,7 @@ Adriene Almacen
 
  
 
-#### Progress Report [21/03/2017] - Sent by Ryan Do
+### Progress Report [21/03/2017] - Sent by Ryan Do
 
 Dear Kristian,
 
@@ -1327,7 +1327,7 @@ with other technical documents.
 
  
 
-#### Individual Beta Submission (Eugene Oliver)
+### Individual Beta Submission (Eugene Oliver)
 
  
 
@@ -1372,7 +1372,7 @@ Eugene Oliver
 
  
 
-#### Individual Beta Submission (Adriene Almacen)
+### Individual Beta Submission (Adriene Almacen)
 
  
 
@@ -1400,7 +1400,7 @@ Adriene Almacen
 
  
 
-#### Individual Final Submission (Ryan Do)
+### Individual Final Submission (Ryan Do)
 
  
 
