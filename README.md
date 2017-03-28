@@ -331,7 +331,10 @@ Illustrations and Diagrams
 ==========================
 
 Figure 1: System Diagram for Lifelines Breathalyzer  
+This figure is a system diagram of the project, describing general structure of how the Lifelines: Breathalyzer works.
+
 Figure 2: Board layout for custom PCB
+This figure is a schematic for the custom PCB we used. This shows the layout of the PCB to make sure everything looks okay.
 
 1. Introduction
 ===============
@@ -529,9 +532,7 @@ to impress people with and hopefully use it yourself to keep you far away from
 drunk driving. You yourself can help reduce the problem of drinking and driving
 just by making this.
 
-![](https://eugenehasjeans.github.io/images/Board.png)
-
- 
+![System Diagram for Lifelines: Breathalyzer](images/sysdiagram.jpg)
 
 ### 2.5.2 Bill of Materials
 
@@ -629,7 +630,7 @@ they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
 properly test it to make sure it works. Below is an image of the board file.
 
-![](images/Board.png)
+![Schematic For Custom PCB](images/Board.png)
 
  
 
