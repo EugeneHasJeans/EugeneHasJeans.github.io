@@ -4,8 +4,7 @@ bibliography: RPiCitations.bib
 title: Lifelines Breathalyzer
 author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
-\linebreak
-\linebreak
+\vfill
 March 28th, 2017
 
 \pagebreak
