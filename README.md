@@ -1,11 +1,10 @@
 ---
 csl: apa.csl
+date: "March 28, 2017"
 bibliography: RPiCitations.bib
 title: Lifelines Breathalyzer
 author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
-
-March 28th, 2017
 
 \pagebreak
 
@@ -313,7 +312,7 @@ Instructions](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#25-buil
 2.5.5 Testing
 
 [2.6 Project Schedule & Progress
-Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#26-progress-reports)
+Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#26-schedule--progress-reports)
 
 [2.7 Software Project
 Reports](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io#27-software-project-reports)
@@ -769,6 +768,7 @@ minutes, then you'll have everything done and in your hands. All you have to do
 is put the Lifelines: Breathalyzer into the case, and make sure everything is
 where you want it! That's it!
 
+\pagebreak
  
 
 2.6 Schedule & Progress Reports
@@ -776,78 +776,104 @@ where you want it! That's it!
 
 Phase 1
 
--   Project Selection & Individual Proposal Due Tue. 9/6/16 - Tue. 9/13/16
+-   Project Selection & Individual Proposal Due  
+    Tue. 9/6/16 - Tue. 9/13/16
 
--   Individual Project Schedule Tue. 9/16/16 - Tue. 9/20/16
+-   Individual Project Schedule  
+    Tue. 9/16/16 - Tue. 9/20/16
 
--   Status Meeting Tue. 9/20/20
+-   Status Meeting  
+    Tue. 9/20/20
 
--   Individual Budget Tue. 9/14/16 - Tue. 9/27/16
+-   Individual Budget  
+    Tue. 9/14/16 - Tue. 9/27/16
 
--   Individual Progress Report (Components Acquired Milestone) Wed. 9/28/16 -
-    Tue. 10/11/16
+-   Individual Progress Report (Components Acquired Milestone)  
+    Wed. 9/28/16 - Tue. 10/11/16
 
--   Status Meeting II Tue. 10/4/16
+-   Status Meeting II  
+    Tue. 10/4/16
 
--   Individual Progress Report II (Mechanical Assembly Milestone) Wed. 10/5/16 -
-    Tue. 10/11/16
+-   Individual Progress Report II (Mechanical Assembly Milestone)  
+    Wed. 10/5/16 - Tue. 10/11/16
 
--   Individual PCB due (Power Up Milestone) Wed. 10/12/16 - Tue. 10/18/16
+-   Individual PCB due (Power Up Milestone)  
+    Wed. 10/12/16 - Tue. 10/18/16
 
--   Status Meeting III Tue. 10/18/16
+-   Status Meeting III  
+    Tue. 10/18/16
 
--   Group Placard Thu. 10/20/16 - Tue. 10/25/16
+-   Group Placard  
+    Thu. 10/20/16 - Tue. 10/25/16
 
--   Individual Progress Report III Sat 10/29/16 - Tue. 11/01/16
+-   Individual Progress Report III  
+    Sat 10/29/16 - Tue. 11/01/16
 
 -   Hardware Demonstration (November 12th, 2016)
 
--   Peer grading of demonstration Thu. 10/27/16 - Tue. 11/8/16
+-   Peer grading of demonstration  
+    Thu. 10/27/16 - Tue. 11/8/16
 
--   Individual Build Video Wed. 10/12/16 - Tue. 11/15/16
+-   Individual Build Video  
+    Wed. 10/12/16 - Tue. 11/15/16
 
--   Status Meeting IV Tue. 11/15/16
+-   Status Meeting IV  
+    Tue. 11/15/16
 
--   Individual Progress Report IV Wed. 11/16/16 - Tue. 11/22/16
+-   Individual Progress Report IV  
+    Wed. 11/16/16 - Tue. 11/22/16
 
--   Individual Presentations, Individual PowerPoint Thu. 11/10/16 - Tue.
-    12/06/16
+-   Individual Presentations, Individual PowerPoint  
+    Thu. 11/10/16 - Tue. 12/06/16
 
--   Individual Video Script, Final Filming and Demonstration Mon. 11/21/16 -
-    Tue. 12/13/16
+-   Individual Video Script, Final Filming and Demonstration  
+    Mon. 11/21/16 - Tue. 12/13/16
 
 Phase 2
 
--   Scheduling and Group Meetings Mon. 1/09/17
+-   Scheduling and Group Meetings  
+    Mon. 1/09/17
 
--   Group Project Status Update Fri. 1/13/17 - Mon. 1/16/17
+-   Group Project Status Update  
+    Fri. 1/13/17 - Mon. 1/16/17
 
--   App, Web, and Database SRS Mon. 1/09/17 - Mon. 1/23/17
+-   App, Web, and Database SRS  
+    Mon. 1/09/17 - Mon. 1/23/17
 
--   Group Project Status Update II Fri. 1/27/17 - Mon. 1/30/17
+-   Group Project Status Update II  
+    Fri. 1/27/17 - Mon. 1/30/17
 
--   Group Project Status Update III Thu. 2/2/17 - Mon. 2/6/17
+-   Group Project Status Update III  
+    Thu. 2/2/17 - Mon. 2/6/17
 
--   App, Web, and Database Independent Demonstration Tue. 2/14/17
+-   App, Web, and Database Independent Demonstration  
+    Tue. 2/14/17
 
--   Group Poject Status Update IV Sat. 2/25/17 - Mon 2/27/17
+-   Group Poject Status Update IV  
+    Sat. 2/25/17 - Mon 2/27/17
 
--   Group Integration Tue. 2/14/17 - Fri. 2/17/17
+-   Group Integration  
+    Tue. 2/14/17 - Fri. 2/17/17
 
--   Group Project Status Update V Mon. 3/6/17 - Mon. 3/13/17
+-   Group Project Status Update V  
+    Mon. 3/6/17 - Mon. 3/13/17
 
--   Group Troubleshooting Wed. 3/1/17 - Mon. 3/20/17
+-   Group Troubleshooting  
+    Wed. 3/1/17 - Mon. 3/20/17
 
--   Group Project Status Update VI Fri. 3/24/17 - Mon. 3/27/17
+-   Group Project Status Update VI  
+    Fri. 3/24/17 - Mon. 3/27/17
 
 -   Project Demonstration at Open House (April 8th, 2017)
 
--   Group Presentations Mon. 4/10/17
+-   Group Presentations  
+    Mon. 4/10/17
 
--   Group Final Report Sat. 3/18/17 - Mon. 4/17/17
+-   Group Final Report  
+    Sat. 3/18/17 - Mon. 4/17/17
 
--   Group Video Script, Final Filming and Demonstration Sat. 3/18/17 - Mon.
-    4/24/17
+-   Group Video Script, Final Filming and Demonstration  
+    Sat. 3/18/17 - Mon. 4/24/17
 
 As seen in the project schedule above, everything is pretty layed out. Planning
 ahead was crucial to get this project organized and properly done. The project
