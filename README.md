@@ -593,9 +593,7 @@ about connecting the parts together and powering it up. Lets get started!
 
  
 
-##### Raspberry Pi  
-
- 
+#### Raspberry Pi
 
 These steps might vary if you get different parts, my Raspberry Pi starter kit
 included a lot of things to make the process a lot easier.Once you receive your
@@ -612,9 +610,7 @@ properly.
 
  
 
-#### PCB/Soldering  
-
- 
+#### PCB/Soldering
 
 Next thing to start working on would be the PCB. The PCB provided to us by the
 Humber Prototype Lab is what we used to hold majority of our project. First
@@ -634,9 +630,7 @@ properly test it to make sure it works. Below is an image of the board file.
 
  
 
-##### Assembling and Power Up  
-
- 
+##### Assembling and Power Up
 
 When the Raspberry Pi is setup, and the PCB is finished and soldered you can now
 set up the rest of the project. Get the Modular Sense Hat and connect it
