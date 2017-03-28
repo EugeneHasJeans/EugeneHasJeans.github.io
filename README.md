@@ -529,7 +529,7 @@ to impress people with and hopefully use it yourself to keep you far away from
 drunk driving. You yourself can help reduce the problem of drinking and driving
 just by making this.
 
-![](https://eugenehasjeans.github.io/images/sysdiagram.jpg)
+![](https://eugenehasjeans.github.io/images/Board.png)
 
  
 
