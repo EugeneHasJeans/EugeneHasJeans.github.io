@@ -228,7 +228,7 @@ is an opportunity to integrate the knowledge and skills developed in our program
 to create a collaborative IoT capstone project demonstrating my ability to learn
 how to support projects. I request approval of this project.
 
- 
+\pagebreak
 
 Abstract
 ========
@@ -1483,7 +1483,7 @@ friend, calling a taxi or seeking the nearest hotels in the area. The final
 version of our project meets all the requirements that needed to be
 accomplished.
 
- 
+\pagebreak
 
 4. Recommendations
 ==================
