@@ -593,7 +593,7 @@ about connecting the parts together and powering it up. Lets get started!
 
  
 
-##### Raspberry Pi
+##### Raspberry Pi 
 
 These steps might vary if you get different parts, my Raspberry Pi starter kit
 included a lot of things to make the process a lot easier.Once you receive your
