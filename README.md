@@ -1,7 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer   \nBy: Designated Drivers (Eugene Oliver, Ryan Do, Adriene Almacen)   \nMarch 28th, 2017"
+title: "Lifelines Breathalyzer  \nBy: Designated Drivers (Eugene Oliver, Ryan Do, Adriene Almacen)  \nMarch 28th, 2017"
 ---
 
  
@@ -591,7 +591,9 @@ raspberry Pi, what needed to be done in order for it to work properly. Next we
 will talk about creating your own PCB, and soldering it. After that we will talk
 about connecting the parts together and powering it up. Lets get started!
 
-#### Raspberry Pi
+ 
+
+##### Raspberry Pi
 
 These steps might vary if you get different parts, my Raspberry Pi starter kit
 included a lot of things to make the process a lot easier.Once you receive your
@@ -624,7 +626,11 @@ they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
 properly test it to make sure it works. Below is an image of the board file.
 
-![](images/Board.pdf)
+ 
+
+![Board](/images/Board.pdf)
+
+ 
 
 ##### Assembling and Power Up
 
