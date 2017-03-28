@@ -1,7 +1,7 @@
 ---
 csl: apa.csl
 bibliography: RPiCitations.bib
-title: "Lifelines Breathalyzer"
+title: Lifelines Breathalyzer
 author: "Eugene Oliver, Ryan Do, Adriene Almacen"
 ---
 
@@ -629,7 +629,9 @@ they had there so we didn't need to buy our own. Once done, you should consult
 to Vlad and Kelly to make sure you've done it right, they will show you how to
 properly test it to make sure it works. Below is an image of the board file.
 
-![Board](/images/Board.pdf)
+![](images/Board.png)
+
+ 
 
 ### Assembling and Power Up
 
@@ -695,7 +697,7 @@ ran by putting it in a file named *lifelines.py*, and can be ran by typing
 
  
 
-### Connecting To The Database  
+### Connecting To The Database
 
  
 
